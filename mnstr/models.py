@@ -7,7 +7,19 @@ class Topic(models.Model):
     name = models.CharField(max_length=255)
     
 class News(models.Model):
+    SOURCE_CHOICES = (
+        ('BBC', 'BBC News'),
+        ('GUARDIAN', 'The Guardian'),
+        ('SKY', 'Sky News'),
+        ('ITV', 'ITV News'),
+        ('CH4', 'Channel 4'),
+        ('INDEPENDENT', 'The Independant'),
+        ('TIMES', 'The Times'),
+        ('TELEGRAPH', 'The Telegraph'),
+        )
+
     name = models.CharField(max_length=255)
+    source = models.CharField(max_length=20, choices=SOURCE_CHOICES)
     link = models.TextField()
     image_link = models.TextField()
     topic = models.ForeignKey(Topic)
