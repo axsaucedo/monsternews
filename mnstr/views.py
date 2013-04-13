@@ -1,22 +1,11 @@
 # Create your views here.
 from django.shortcuts import render
 from mnstr.models import *
+from django.template.loader import render_to_string
+from django.utils import simplejson
+from django.http import HttpResponse
 
-def monsterHome(request):
-    topics = Topic.objects.all()[:1]
-    topic = topics[0]
-    comments = []
-    comments_objs = Comment.objects.filter(topic = topic, parent=None).order_by("-votes")[:5]
-    for comment in comments_objs:
-        replies = Comment.objects.filter(parent=comment)
-        comments.append({
-            'comment': comment,
-            'replies': replies
-        })
-    return render(request, "comments.html", {'comments': comments })
-
-def load_comments(request):
-    topic = Topic.objects.get(pk=request.POST.topic_id)
+fetch_comments = 5
 
 def home(request):
     allTopics = Topic.objects.all()[:5]
@@ -41,3 +30,20 @@ def home(request):
         topics.append({ 'topic' : topic ,'news': news_objs, 'comments' : comments})
 
     return render(request, "main.html", { 'topics' : topics })
+
+def load_comments(request):
+    topic = Topic.objects.get(pk=request.GET['topic_id'])
+    lower_limit = int(request.GET['lower_limit'])
+    comments_objs = Comment.objects.filter(topic = topic, parent=None).order_by("-votes")[lower_limit:lower_limit + fetch_comments]
+    comments = []
+    for comment in comments_objs:
+        replies = Comment.objects.filter(parent=comment)
+        comments.append({
+            'comment': comment,
+            'replies': replies
+        })
+    data = {
+        'html': render_to_string('layouts/comments.html', { 'comments': comments }),
+        'full': comments_objs.count() < fetch_comments
+    }
+    return HttpResponse(simplejson.dumps(data), mimetype='application/javascript')

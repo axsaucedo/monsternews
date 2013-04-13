@@ -7,6 +7,7 @@
 		<script src="/static/js/jquery.min.js"></script>
 		<script src="/static/js/bootstrap.min.js"></script>
 		<script src="/static/js/mnstr.js"></script>
+		<script src="/static/js/comments.js"></script>
 	</head>
 <body>
 <h1 class="page-title">mnstr</h1>
@@ -17,7 +18,7 @@
         <div class="topic">
             <h2 class="topic-title">{{ topic.topic.name }}</h2>
             <div class="clear"></div>
-            <br <br /><br />
+            <br> <br /><br />
 
             <div class="sources">
 
@@ -36,11 +37,9 @@
 
                 <div class="row-fluid">
                     <div class="span4">&nbsp</div>
-                    <div data-topic_id="{{ topic.name }}" data-load_comments_url="/load_comments/" class="span4 topic_comments" style="border: 2px solid; height: 500px; overflow-y: scroll; overflow-x: hidden;" data-topic-id="{{ topic.id }}">
-                        {% for comment in topic.comments %}
-                            {% include "layouts/comment.html" with comment=topic.comments.comment replies=topic.comments.replies %}
-                        {% endfor %}
-                    </div>
+					<div data-topic_id="{{ topic.topic.id }}" data-load_comments_url="/load_comments/" class="span4 topic_comments" style="border: 2px solid; height: 500px; overflow-y: scroll; overflow-x: hidden;" data-topic-id="{{ topic.id }}">
+						{% include "layouts/comments.html" with comments=topic.comments %}
+					</div>
                     <div class="span4">&nbsp</div>
                 </div>
         </div>

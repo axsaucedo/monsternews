@@ -1,0 +1,3 @@
+{% for comment in comments %}
+	{% include "layouts/comment.html" with comment=comment.comment replies=comment.replies %}
+{% endfor %}
