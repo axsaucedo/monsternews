@@ -5,7 +5,6 @@ from django.conf import settings
 
 class Topic(models.Model):
     name = models.CharField(max_length=255)
-    description = models.CharField(max_length=255)
     
 class News(models.Model):
     name = models.CharField(max_length=255)
@@ -14,6 +13,7 @@ class News(models.Model):
     topic = models.ForeignKey(Topic)
 
 class Comment(models.Model):
+    topic = models.ForeignKey(Topic)
     username = models.CharField(max_length=255, null=True)
     content = models.CharField(max_length=255)
     time = models.DateTimeField(auto_now_add=True)
