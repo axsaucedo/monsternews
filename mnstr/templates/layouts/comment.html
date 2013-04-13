@@ -1,5 +1,5 @@
 <div class="row-fluid comment_container" style="padding:5px; border: 1px solid">
-	<div class="row-fluid">
+	<div class="row-fluid comment">
 		<div class="span1" style="text-align:center;">
 			<i class="icon-chevron-up up_vote" style="cursor:pointer;"></i><br>
 			{{ comment.votes }}<br>
@@ -7,21 +7,21 @@
 		</div>
 		<div class="span11">
 			<div class="row-fluid commenter">
-				{{ comment.username }} - {{ comment.time|timesince }} ago
+				<span class="commenter_name">{{ comment.username }}</span> - {{ comment.time|timesince }} ago
 			</div>
 			<div class="row-fluid" style="word-wrap:break-word;">
 				{{ comment.content }}
 			</div>
 			<div class="row-fluid">
-				<button class="btn">Reply</button>
+				<button class="btn reply_button">Reply</button>
 			</div>
 		</div>
 	</div>
-	<div class="row-fluid">
+	<div class="row-fluid replies_list" style="display:none; ">
 		<div class="span1">&nbsp</div>
-		<div class="span11">
+		<div class="span11 replies_list_body">
 			{% for comment in replies %}
-				<div class="row-fluid" style="padding:5px; border: 1px solid">
+				<div class="row-fluid comment" style="padding:5px; border: 1px solid">
 					<div class="span1" style="text-align:center;">
 						<i class="icon-chevron-up up_vote" style="cursor:pointer;"></i><br>
 						{{ comment.votes }}<br>
@@ -29,13 +29,13 @@
 					</div>
 					<div class="span11">
 						<div class="row-fluid commenter">
-							{{ comment.username }} - {{ comment.time|timesince }} ago
+							<span class="commenter_name">{{ comment.username }}</span> - {{ comment.time|timesince }} ago
 						</div>
 						<div class="row-fluid" style="word-wrap:break-word;">
 							{{ comment.content }}
 						</div>
 						<div class="row-fluid">
-							<button class="btn">Reply</button>
+							<button class="btn reply_button">Reply</button>
 						</div>
 					</div>
 				</div>

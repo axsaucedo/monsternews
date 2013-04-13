@@ -7,7 +7,7 @@ var comments = {
 		var loading_lists = [];
 		var full_lists = [];
 		
-		$(".topic_comments").on("scroll", function() {
+		$("body").on("scroll", ".topic_comments", function() {
 			var topic_comments = $(this);
 			var topic_id = topic_comments.attr("data-topic_id");
 			if (!loading_lists.topic_id && !full_lists.topic_id && (topic_comments[0].scrollHeight - topic_comments.scrollTop() - topic_comments.height() < left_min_height)) { 	
@@ -62,6 +62,16 @@ var comments = {
 				});
 			}
 		});
+		
+		$(".reply_button").on("click", function() {
+			$(this).closest(".comment_container").find(".replies_list").show();
+			$(this).closest(".comments_list").find(".reply_box").remove();
+			var reply_dom = $("#reply_box_sample").find(".reply_box").clone();
+			reply_dom.find(".post_reply_field").val("@" + $(this).closest(".comment").find(".commenter_name").html() + " - ");
+			$(this).closest(".comment_container").find(".replies_list_body").append(reply_dom);
+		});
+	
+		
 	}
 }
 
