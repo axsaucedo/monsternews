@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link href="/static/css/bootstrap.min.css" rel="stylesheet" />
+		 <link href="/static/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="/static/css/main.css" rel="stylesheet" />
+		<script src="/static/js/jquery.min.js"></script>
+		<script src="/static/js/bootstrap.min.js"></script>
+		<script src="/static/js/mnstr.js"></script>
+	</head>
+<body>
+
+<div class="row-fluid">
+	<div class="span4">&nbsp</div>
+	<div class="span4 topic_comments" style="border: 2px solid; height: 500px;" data-topic-id="{{ topic.id }}">
+		{% for comment in comments %}
+			{% include "layouts/comment.html" with comment=comment %}
+		{% endfor %}
+	</div>
+<div class="span4">&nbsp</div>
+</div>
+
+</body>
+
+</html>
