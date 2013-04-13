@@ -9,6 +9,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'mnstr.views.monsterHome', name='monsterHome'),
+        url(r'^load_comments/$', 'mnstr.views.load_comments', name='load_comments'),
     # url(r'^monsternews/', include('monsternews.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
