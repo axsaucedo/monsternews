@@ -62,7 +62,7 @@ var comments = {
 						comment_box.find(".post_comment_field").val("");
 					},
 					complete: function() {
-						button.attr("disabled", "");
+						button.removeAttr("disabled");
 					}
 				});
 			}
