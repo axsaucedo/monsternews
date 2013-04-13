@@ -81,6 +81,8 @@ def vote_comment(request):
     comment.save()
     data = {
         'votes_count':  comment.votes,
-        'pos': Comment.objects.filter(votes__gte = comment.votes, parent=None, topic=comment.topic).count() - 1
+        'pos': -1 
     }
+    if comment.parent == None:
+        data['pos'] = Comment.objects.filter(votes__gte = comment.votes, parent=None, topic=comment.topic).count() - 1
     return HttpResponse(simplejson.dumps(data), mimetype='application/javascript')

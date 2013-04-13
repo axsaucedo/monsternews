@@ -117,26 +117,29 @@ var comments = {
 		});
 		
 		function send_vote(button, delta) {
-			var comment_container = button.closest(".comment_container");
+			var comment = button.closest(".comment");
 			$.ajax({
-				url: comment_container.attr("data-vote_url"),
+				url: comment.attr("data-vote_url"),
 				method: "get",
 				dataType: "json",
 				data: {
-					comment_id: comment_container.attr("data-comment_id"),
+					comment_id: comment.attr("data-comment_id"),
 					delta: delta,
 				},
 				success: function(res) {
-					comment_container.find(".votes_count").html(res.votes_count);
-					var topic_comments = comment_container.closest(".topic_comments");
-					var copy = comment_container.clone();
-					comment_container.remove();
-					if (res.pos > 0)
-					{
-						topic_comments.find(".comment_container").eq(res.pos - 1).after(copy);
-					}
-					else {
-						topic_comments.find(".comments_list").prepend(copy);
+					comment.find(".votes_count").html(res.votes_count);
+					if (res.pos !== -1) {
+						var comment_container = comment.closest(".comment_container")
+						var topic_comments = comment_container.closest(".topic_comments");
+						var copy = comment_container.clone();
+						comment_container.remove();
+						if (res.pos > 0)
+						{
+							topic_comments.find(".comment_container").eq(res.pos - 1).after(copy);
+						}
+						else {
+							topic_comments.find(".comments_list").prepend(copy);
+						}
 					}
 				}
 			});
