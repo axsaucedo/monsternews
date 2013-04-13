@@ -1,9 +1,4 @@
-body
-{
-    margin:0px;
-    padding:0px;
-    width:100%;
-}
+
 
 h1.page-title
 {
@@ -15,13 +10,7 @@ h1.page-title
 
 .topic-title
 {
-    background-color:yellow;
-}
-
-.topics
-{
-    text-align:center;
-
+	text-align:center;
 }
 
 .topic
@@ -29,7 +18,7 @@ h1.page-title
     font-family:arial, sans-serif;
     margin:auto;
     text-align:left;
-    width:960px;
+   
 }
 
 .story-comments
@@ -37,7 +26,7 @@ h1.page-title
     border:1px solid #ccc;
     float:right;
     margin-left:10px;
-    width:210px;
+ 
 }
 
 .story-comments-title
@@ -46,7 +35,6 @@ h1.page-title
     text-align:center;
 
 }
-
 
 .story-comments .comment
 {
@@ -65,17 +53,15 @@ h1.page-title
 
 .sources
 {
-    float:left;
+
 }
 
 .source
 {
     border:1px solid #ccc;
-    float:left;
-    margin-right:10px;
     padding:0px 5px 0px 5px;
-    width:180px;
-}
+
+} 
 
 .source .heading
 {

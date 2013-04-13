@@ -10,48 +10,35 @@
 		<script src="/static/js/comments.js"></script>
 	</head>
 <body>
-<h1 class="page-title">mnstr</h1>
-
-<div class="topics">
-
-    {% for topic in topics %}
-        <div class="topic">
-            <h2 class="topic-title">{{ topic.topic.name }}</h2>
-            <div class="clear"></div>
-            <br> <br /><br />
-
-            <div class="sources">
-
-                {% for news in topic.news %}
-
-                    <div class="source">
-                        <div class="source-logo">{{ news.source }}</div>
-                        <div class="heading">{{ news.name }}</div>
-                        <a href="{{ news.link }}"><img src="{{ news.image_link }}" /></a>
-                        <div class="description">{{ news.description }}</div>
-                    </div>
-
-                {% endfor %}
-
-
-
-                <div class="row-fluid">
-                    <div class="span4">&nbsp</div>
-					<div data-topic_id="{{ topic.topic.id }}" data-load_comments_url="/load_comments/" class="span4 topic_comments" style="border: 2px solid; height: 500px; overflow-y: scroll; overflow-x: hidden;" data-topic-id="{{ topic.id }}">
+	<div class="row-fluid">
+		<div class="span1">&nbsp</div>
+		<div class="span10">
+			<h1 class="page-title">mnstr</h1>
+			{% for topic in topics %}
+				<div class="row-fluid">
+					<div class="span9">
+						<div class="row-fluid topic-title">
+							<h2>{{ topic.topic.name }}</h2>
+						</div>
+						<div class="row-fluid">
+							{% for news in topic.news %}
+			                    <div class="span3 source">
+			                        <div class="source-logo">{{ news.source }}</div>
+			                        <div class="heading">{{ news.name }}</div>
+			                        <a href="{{ news.link }}"><img src="{{ news.image_link }}" /></a>
+			                        <div class="description">{{ news.description }}</div>
+			                    </div>
+		                	{% endfor %}
+						</div>
+					</div>
+					<div data-topic_id="{{ topic.topic.id }}" data-load_comments_url="/load_comments/" class="span3 topic_comments" style="border: 2px solid; height: 500px; overflow-y: scroll; overflow-x: hidden;">
 						{% include "layouts/comments.html" with comments=topic.comments %}
 					</div>
-                    <div class="span4">&nbsp</div>
-                </div>
-        </div>
-    {% endfor %}
-</div>
-
-
-
-
-
-
-
-
+				</div>
+				<hr>
+			{% endfor %}
+		</div>
+		<div class="span1">&nbsp</div>
+	</div>
 </body>
 </html>
