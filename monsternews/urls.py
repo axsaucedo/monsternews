@@ -18,5 +18,6 @@ urlpatterns = patterns('',
     url(r'^$', 'mnstr.views.home', name='home'),
     url(r'^load_comments/$', 'mnstr.views.load_comments', name='load_comments'),
     url(r'^post_comment/$', 'mnstr.views.post_comment', name='post_comment'),
+    url(r'^post_reply/$', 'mnstr.views.post_reply', name='post_reply'),
     url(r'^admin/', include(admin.site.urls)),
 )

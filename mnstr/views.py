@@ -57,3 +57,12 @@ def post_comment(request):
     }
     return HttpResponse(simplejson.dumps(data), mimetype='application/javascript')
 
+def post_reply(request):
+    parent_comment = Comment.objects.get(pk=request.GET['comment_id'])
+    comment = Comment(parent=parent_comment, topic = parent_comment.topic, username=request.GET['username'], content = request.GET['content'])
+    comment.save()
+    data = {
+        'html': render_to_string('layouts/reply.html', { 'comment': comment, "display": True }),
+    }
+    return HttpResponse(simplejson.dumps(data), mimetype='application/javascript')
+

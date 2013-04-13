@@ -1,0 +1,18 @@
+<div class="row-fluid comment" style="padding:5px; border: 1px solid; {% if not display %} display:none;{% endif %} ">
+	<div class="span1" style="text-align:center;">
+		<i class="icon-chevron-up up_vote" style="cursor:pointer;"></i><br>
+		{{ comment.votes }}<br>
+		<i class="icon-chevron-down down_vote" style="cursor:pointer;"></i><br>
+	</div>
+	<div class="span11">
+		<div class="row-fluid commenter">
+			<span class="commenter_name">{{ comment.username }}</span> - {{ comment.time|timesince }} ago
+		</div>
+		<div class="row-fluid" style="word-wrap:break-word;">
+			{{ comment.content }}
+		</div>
+		<div class="row-fluid">
+			<button class="btn reply_button">Reply</button>
+		</div>
+	</div>
+</div>
