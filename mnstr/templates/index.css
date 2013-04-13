@@ -1,5 +1,6 @@
 body
 			{ 
+				background-image:url('images/paper.jpg');
 				margin:0px;
 				padding:0px;
 				width:100%;
@@ -42,7 +43,9 @@ body
 			
 			.story-comments
 			{
+				background-color:#fff;
 				border:1px solid #ccc;
+				border-radius:5px;
 				float:right;
 				margin-left:10px;
 				margin-top:50px;
@@ -51,6 +54,7 @@ body
 			
 			.story-comments-title
 			{
+				background-color:#ddd;
 				font-weight:bold;
 				text-align:center;
 				font-family:arial;
@@ -60,7 +64,7 @@ body
 			
 			.story-comments .comment
 			{
-				background-color:#eee;
+				border-bottom:1px solid #eee;
 				font-size:0.7em;
 				font-family:arial, sans-serif;
 				margin:2px 0px 2px 0px;
@@ -84,11 +88,17 @@ body
 			
 			.source 
 			{ 
+				background-color:#fff;
 				border:1px solid #ccc;
 				border-radius:5px;
 				float:left; 
 				margin-right:10px;
-				padding:0px 5px 0px 5px;
+				padding:5px 5px 5px 5px;
+				width:160px;
+			}
+			
+			.source img 
+			{
 				width:160px;
 			}
 			
@@ -148,3 +158,9 @@ body
 			}
 			
 			.chunk {font: 2em 'ChunkFiveRegular', Arial, sans-serif !important;}
+			
+			.width200 { width:200px; }
+			.width300 { width:300px; }
+			.width400 { width:400px; }
+			
+			.marginBottom50 { margin-bottom:50px; }
