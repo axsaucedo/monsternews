@@ -1,0 +1,129 @@
+body
+			{ 
+				margin:0px;
+				padding:0px;
+				width:100%;
+			}
+			
+			#container
+			{
+				
+				margin:auto;
+				width:960px;
+			}
+			
+			h1.page-title
+			{
+				text-align:center;
+				background-color:yellow;
+				font-size:2em;
+				padding:10px 0px 10px 0px;
+			}
+			
+			.topic-title
+			{
+				background-color:yellow;
+			}
+			
+			.stories
+			{
+				
+				text-align:center;
+				
+			}
+				
+			.story 
+			{
+				font-family:arial, sans-serif;
+				margin:auto;
+				text-align:left;
+				width:730px;
+			}
+			
+			.story-comments
+			{
+				border:1px solid #ccc;
+				float:right;
+				margin-left:10px;
+				width:210px;
+			}
+			
+			.story-comments-title
+			{
+				font-weight:bold;
+				text-align:center;
+				
+			}
+			
+			
+			.story-comments .comment
+			{
+				background-color:#eee;
+				font-size:0.7em;
+				font-family:arial, sans-serif;
+				margin:2px 0px 2px 0px;
+				padding:5px;
+			}
+			
+			
+			.story-title
+			{
+				background-color:yellow;
+				font-weight:bold;
+				display:inline;
+				margin-bottom:20px;
+				text-align:left;
+			}
+			
+			.sources 
+			{
+				float:left;
+			}
+			
+			.source 
+			{ 
+				border:1px solid #ccc;
+				border-radius:5px;
+				float:left; 
+				margin-right:10px;
+				padding:0px 5px 0px 5px;
+				width:160px;
+			}
+			
+			.source .heading
+			{
+				font-weight:bold;
+			}
+		
+			.source-category
+			{
+				background-color:#000;
+				color:#fff;
+				display:inline;
+				font-family: Tahoma, sans-serif;
+			}
+			
+			.logo
+			{
+				background-position:center center;
+				background-repeat:no-repeat;
+				background-size:cover;
+				height:30px;
+			}
+			
+			.logo-bbc { background-image:url('images/bbc.png');	}
+			.logo-sky {	background-image:url('images/sky.png'); }
+			.logo-itv {	background-image:url('images/itv.png');	}
+			.logo-channel4 { background-image:url('images/channel4.png'); }
+			
+			.logo-guardian { background-image:url('images/guardian.png'); }
+			.logo-independent{ background-image:url('images/independent.png'); }
+			.logo-times { background-image:url('images/times.png');}
+			.logo-telegraph {background-image:url('images/telegraph.png');}
+			
+			.clear { clear:both; }
+			
+			.floatLeft { float:left;  }
+			.floatRight { float:right;  }
+			
+			.ago { display:block; text-align:right; }
