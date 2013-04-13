@@ -22,6 +22,9 @@ h1.page-title
     font-size:6em;
     margin-top: 80px;
 }
+.img-title {
+    width:100%;
+}
 
 .topic-title
 {
@@ -77,12 +80,17 @@ h1.page-title
 }
 
 .topic_comments {
-    min-width: 245px;
+    min-width: 247px;
 }
 
 .post_comment {
     margin: 10px;
     width:85px;
+}
+
+.post_reply {
+    margin: 10px 5px;
+    width:75px;
 }
 
 .post_comment_name {

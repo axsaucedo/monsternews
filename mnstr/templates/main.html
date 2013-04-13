@@ -10,10 +10,11 @@
 		<script src="/static/js/comments.js"></script>
 	</head>
 <body>
+<img class="img-title" src="static/media/mainimg/mnstrtitle.png"/>
 	<div class="row-fluid">
 		<div class="span1">&nbsp</div>
 		<div class="span10">
-			<h1 class="page-title">MNSTR NEWS</h1>
+{#			<h1 class="page-title">MNSTR NEWS</h1>#}
             <div id="page-divider"></div>
 			{% for topic in topics %}
                 <div class="row-fluid topic-title">
@@ -50,11 +51,13 @@
 		</div>
 		<div class="span1">&nbsp</div>
 	</div>
+    <div class="row-fluid post_comment_box" data-post_comment_url="/post_comment/">
+    </div>
 	<div id="reply_box_sample" style="display:none;">
 		<div class="reply_box" data-post_reply_url="/post_reply/">
-			<input type="text" class="post_reply_name">
-			<input type="text" class="post_reply_field">
-			<button class="btn btn-success post_reply">Post</button>
+            <button class="btn btn-success post_reply" >Post</button>
+            <input type="text" class="post_comment_name" style="width: 90px; margin-right: 25px" placeholder="Name">
+            <textarea class="post_comment_field" placeholder="Comment" style="width: 180px"></textarea>
 		</div>
 	</div>
 </body>
