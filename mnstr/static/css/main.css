@@ -1,32 +1,38 @@
+@font-face {
+    font-family: 'Urban';
+    src: url('fonts/UrbanJungleDEMO.otf') format('opentype');
+}
+@font-face {
+    font-family: "NexaBold";
+    src: url('fonts/NexaBold.otf') format('opentype');
+}
+@font-face {
+    font-family: "Archive";
+    src: url('fonts/Archive.otf') format('opentype');
+}
 
+body {
+    color: #363636;
+}
 
 h1.page-title
 {
     text-align:center;
-    background-color:yellow;
-    font-size:2em;
-    padding:10px 0px 10px 0px;
+    font-family: 'Urban';
+    font-size:6em;
+    margin-top: 80px;
 }
 
 .topic-title
 {
-	text-align:center;
+	text-align:left;
 }
 
 .topic
 {
     font-family:arial, sans-serif;
-    margin:auto;
     text-align:left;
-   
-}
 
-.story-comments
-{
-    border:1px solid #ccc;
-    float:right;
-    margin-left:10px;
- 
 }
 
 .story-comments-title
@@ -36,55 +42,25 @@ h1.page-title
 
 }
 
-.story-comments .comment
-{
-    background-color:#eee;
+.img-source {
+    width: 200px;
+    height: 130px;
 }
 
-
-.story-title
-{
-    background-color:yellow;
-    font-weight:bold;
-    display:inline;
-    margin-bottom:20px;
-    text-align:left;
-}
-
-.sources
-{
-
+.description {
+    font-size: 10px;
+    line-height: 1em;
 }
 
 .source
 {
-    border:1px solid #ccc;
-    padding:0px 5px 0px 5px;
-
-} 
+    height: 250px;
+    border: solid;
+    padding: 5px;
+}
 
 .source .heading
 {
-    font-weight:bold;
+    font-family: Century Gothic;
+    font-weight: bold;
 }
-
-
-.logo
-{
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    height:40px;
-}
-
-/*.logo-bbc { background-image:url('/static/media/mainimg/bbc.png');	}*/
-/*.logo-sky {	background-image:url('/static/media/mainimg/sky.png'); }*/
-/*.logo-itv {	background-image:url('/static/media/mainimg/itv.png');	}*/
-/*.logo-channel4 { background-image:url('/static/media/mainimg/channel4.png'); }*/
-
-/*.logo-guardian { background-image:url('/static/media/mainimg/guardian.png'); }*/
-/*.logo-independent{ background-image:url('/static/media/mainimg/independent.png'); }*/
-/*.logo-times { background-image:url('/static/media/mainimg/times.png');}*/
-/*.logo-telegraph {background-image:url('/static/media/mainimg/telegraph.png');}*/
-
-.clear { clear:both; }

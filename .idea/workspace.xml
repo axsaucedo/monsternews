@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mnstr/static/css/fonts/Nexa Bold.otf" afterPath="$PROJECT_DIR$/mnstr/static/css/fonts/NexaBold.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mnstr/static/css/fonts/Nexa Light.otf" afterPath="$PROJECT_DIR$/mnstr/static/css/fonts/NexaLight.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/static/css/main.css" afterPath="$PROJECT_DIR$/mnstr/static/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/templates/main.html" afterPath="$PROJECT_DIR$/mnstr/templates/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="monsternews.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/settings.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365854466260" ignored="false" />
     <file path="/views.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365867913256" ignored="false" />
-    <file path="/Dummy.txt" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365879557696" ignored="false" />
+    <file path="/Dummy.txt" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365880691929" ignored="false" />
     <file path="/README" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365848117236" ignored="false" />
     <file path="/models.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365867520905" ignored="false" />
     <file path="/admin.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365860453380" ignored="false" />
     <file path="/urls.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365859037839" ignored="false" />
     <file path="$PROJECT_DIR$/../zwitchitproject/zwitchit/urls.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365851061498" ignored="false" />
     <file path="/base_site.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365852165647" ignored="false" />
-    <file path="/main.css" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365876592725" ignored="false" />
-    <file path="/main.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365874277068" ignored="false" />
+    <file path="/main.css" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365881382103" ignored="false" />
+    <file path="/main.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365880230293" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +82,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnstr/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="69" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+            <state line="57" column="23" selection-start="2147" selection-end="2159" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#26#61#0" expanded="true" />
               </folding>
@@ -89,7 +93,7 @@
       <file leaf-file-name="comment.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnstr/templates/layouts/comment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="55" selection-start="646" selection-end="646" vertical-scroll-proportion="-10.625">
+            <state line="17" column="14" selection-start="646" selection-end="646" vertical-scroll-proportion="-7.5">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -97,12 +101,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="96" selection-start="1625" selection-end="1625" vertical-scroll-proportion="-8.125">
+            <state line="30" column="50" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.72126436">
               <folding>
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,18 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnstr/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="30" selection-start="858" selection-end="858" vertical-scroll-proportion="0.4103896">
-              <folding>
-                <marker date="1365879609000" expanded="true" signature="136:169" placeholder="{...}" />
-                <marker date="1365879609000" expanded="true" signature="222:251" placeholder="{...}" />
-                <marker date="1365879609000" expanded="true" signature="295:335" placeholder="{...}" />
-                <marker date="1365879609000" expanded="true" signature="466:470" placeholder="{...}" />
-                <marker date="1365879609000" expanded="true" signature="686:691" placeholder="{...}" />
-                <marker date="1365879609000" expanded="true" signature="615:630" placeholder="{...}" />
-              </folding>
+            <state line="58" column="17" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -879,12 +876,16 @@
       <created>1365879559117</created>
       <updated>1365879559117</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;mnstr/views.py&#10;">
+      <created>1365879708598</created>
+      <updated>1365879708598</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32721713" sideWeight="0.48379254" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -893,18 +894,18 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.37925446" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5008104" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.6150729" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.71880066" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.493517" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20178282" sideWeight="0.6712538" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.49027553" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.48379254" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -997,7 +998,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="46" selection-start="2062" selection-end="2062" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1005,14 +1006,7 @@
     <entry file="file://$PROJECT_DIR$/mnstr/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="108" column="40" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1365879609000" expanded="true" signature="136:169" placeholder="{...}" />
-            <marker date="1365879609000" expanded="true" signature="222:251" placeholder="{...}" />
-            <marker date="1365879609000" expanded="true" signature="295:335" placeholder="{...}" />
-            <marker date="1365879609000" expanded="true" signature="466:470" placeholder="{...}" />
-            <marker date="1365879609000" expanded="true" signature="686:691" placeholder="{...}" />
-            <marker date="1365879609000" expanded="true" signature="615:630" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,11 +1043,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/views.py">
+    <entry file="file://$PROJECT_DIR$/mnstr/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="69" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="-5.769231">
           <folding>
-            <element signature="e#26#61#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnstr/templates/layouts/comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="14" selection-start="646" selection-end="646" vertical-scroll-proportion="-7.5">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1067,43 +1070,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="96" selection-start="1625" selection-end="1625" vertical-scroll-proportion="-8.125">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/templates/layouts/comment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="55" selection-start="646" selection-end="646" vertical-scroll-proportion="-10.625">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="-5.769231">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mnstr/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="30" selection-start="858" selection-end="858" vertical-scroll-proportion="0.4103896">
+        <state line="58" column="17" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnstr/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="23" selection-start="2147" selection-end="2159" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1365879609000" expanded="true" signature="136:169" placeholder="{...}" />
-            <marker date="1365879609000" expanded="true" signature="222:251" placeholder="{...}" />
-            <marker date="1365879609000" expanded="true" signature="295:335" placeholder="{...}" />
-            <marker date="1365879609000" expanded="true" signature="466:470" placeholder="{...}" />
-            <marker date="1365879609000" expanded="true" signature="686:691" placeholder="{...}" />
-            <marker date="1365879609000" expanded="true" signature="615:630" placeholder="{...}" />
+            <element signature="e#26#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="50" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.72126436">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
