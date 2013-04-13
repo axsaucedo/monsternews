@@ -17,12 +17,16 @@ def home(request):
         news_objs =  News.objects.filter(topic=topic)
         
         news_groups = []
+
+        for n in news_objs:
+            n.source = "static/media/mainimg/" + n.source + ".png"
         
         news_count = news_objs.count()
         slice_pos = 0
         while slice_pos < news_count:
             news_groups.append(news_objs[slice_pos:slice_pos + line_news])
             slice_pos += line_news
+
 
         #retreiving Comments object from database related to topic
         comments_objs = Comment.objects.filter(topic=topic, parent=None).order_by("-votes")[:fetch_comments]
