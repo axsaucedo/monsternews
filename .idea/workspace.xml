@@ -2,24 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/templates/main.html" afterPath="$PROJECT_DIR$/mnstr/templates/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/models.py" afterPath="$PROJECT_DIR$/mnstr/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/views.py" afterPath="$PROJECT_DIR$/mnstr/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="monsternews.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/settings.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365854466260" ignored="false" />
     <file path="/views.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365867913256" ignored="false" />
-    <file path="/Dummy.txt" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365866556703" ignored="false" />
+    <file path="/Dummy.txt" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365879557696" ignored="false" />
     <file path="/README" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365848117236" ignored="false" />
     <file path="/models.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365867520905" ignored="false" />
     <file path="/admin.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365860453380" ignored="false" />
     <file path="/urls.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365859037839" ignored="false" />
     <file path="$PROJECT_DIR$/../zwitchitproject/zwitchit/urls.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365851061498" ignored="false" />
     <file path="/base_site.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365852165647" ignored="false" />
-    <file path="/main.css" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365864474032" ignored="false" />
-    <file path="/main.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365868758768" ignored="false" />
+    <file path="/main.css" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365876592725" ignored="false" />
+    <file path="/main.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365874277068" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,29 +78,9 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnstr/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="41" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
+            <state line="17" column="69" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#26#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comments.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mnstr/templates/comments.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="478" selection-end="478" vertical-scroll-proportion="0.24064171">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="46" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-6.8333335">
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,6 +92,17 @@
             <state line="17" column="55" selection-start="646" selection-end="646" vertical-scroll-proportion="-10.625">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="96" selection-start="1625" selection-end="1625" vertical-scroll-proportion="-8.125">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,7 +122,7 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnstr/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="9" selection-start="284" selection-end="288" vertical-scroll-proportion="-8.076923">
+            <state line="10" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="-5.769231">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -142,11 +130,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mnstr/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="5" selection-start="178" selection-end="178" vertical-scroll-proportion="-7.5">
-              <folding />
+            <state line="76" column="30" selection-start="858" selection-end="858" vertical-scroll-proportion="0.4103896">
+              <folding>
+                <marker date="1365879609000" expanded="true" signature="136:169" placeholder="{...}" />
+                <marker date="1365879609000" expanded="true" signature="222:251" placeholder="{...}" />
+                <marker date="1365879609000" expanded="true" signature="295:335" placeholder="{...}" />
+                <marker date="1365879609000" expanded="true" signature="466:470" placeholder="{...}" />
+                <marker date="1365879609000" expanded="true" signature="686:691" placeholder="{...}" />
+                <marker date="1365879609000" expanded="true" signature="615:630" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -176,11 +171,11 @@
         <option value="$PROJECT_DIR$/mnstr/templates/mnstr/monsterhome.html" />
         <option value="$PROJECT_DIR$/monsternews/settings.py" />
         <option value="$PROJECT_DIR$/monsternews/urls.py" />
-        <option value="$PROJECT_DIR$/mnstr/admin.py" />
-        <option value="$PROJECT_DIR$/mnstr/static/css/main.css" />
         <option value="$PROJECT_DIR$/mnstr/models.py" />
         <option value="$PROJECT_DIR$/mnstr/views.py" />
+        <option value="$PROJECT_DIR$/mnstr/admin.py" />
         <option value="$PROJECT_DIR$/mnstr/templates/main.html" />
+        <option value="$PROJECT_DIR$/mnstr/static/css/main.css" />
       </list>
     </option>
   </component>
@@ -393,6 +388,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monsternews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monsternews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mnstr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -418,6 +439,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mnstr/static/css/fonts" />
       <recent name="$PROJECT_DIR$/mnstr/static/media/mainimg" />
       <recent name="$PROJECT_DIR$/templates" />
     </key>
@@ -440,13 +462,9 @@
             <option name="mySupportsDeletion" value="false" />
             <option name="myCanBeAbsent" value="false" />
             <option name="myId" value="UPDATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/__init__.pyc</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/admin.pyc</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/models.pyc</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/comments.html</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/index.css</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/index.html</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/layouts/comment.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/static/css/main.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/static/js/comments.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/main.html</PATH>
             <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/views.py</PATH>
             <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/views.pyc</PATH>
             <PATH vcs="Git" revision="">$PROJECT_DIR$/monsternews/urls.py</PATH>
@@ -457,23 +475,6 @@
             <option name="mySupportsDeletion" value="false" />
             <option name="myCanBeAbsent" value="false" />
             <option name="myId" value="CREATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/static/js/comments.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/fonts/Chunkfive-webfont.eot</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/fonts/Chunkfive-webfont.svg</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/fonts/Chunkfive-webfont.ttf</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/fonts/Chunkfive-webfont.woff</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/images/bbc.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/images/channel4.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/images/guardian.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/images/independent.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/images/itv.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/images/logo.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/images/logo.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/images/paper.jpg</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/images/preview.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/images/sky.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/images/telegraph.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/images/times.png</PATH>
           </FILE-GROUP>
           <FILE-GROUP>
             <option name="myUpdateName" value="Deleted" />
@@ -481,7 +482,6 @@
             <option name="mySupportsDeletion" value="false" />
             <option name="myCanBeAbsent" value="true" />
             <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/comment.html</PATH>
           </FILE-GROUP>
           <FILE-GROUP>
             <option name="myUpdateName" value="Restored" />
@@ -863,24 +863,40 @@
       <created>1365866558428</created>
       <updated>1365866558428</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;mnstr/views.py&#10;">
+      <created>1365869193985</created>
+      <updated>1365869193985</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;mnstr/views.py&#10;">
+      <created>1365872051258</created>
+      <updated>1365872051258</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;mnstr/views.py&#10;">
+      <created>1365879539440</created>
+      <updated>1365879539440</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;mnstr/views.py&#10;">
+      <created>1365879559117</created>
+      <updated>1365879559117</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32721713" sideWeight="0.49027553" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32721713" sideWeight="0.48379254" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5008104" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.37925446" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.493517" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.6150729" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -888,7 +904,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20178282" sideWeight="0.6712538" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.493517" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.49027553" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -958,6 +974,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/monsternews/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -977,7 +997,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="46" selection-start="2062" selection-end="2062" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -985,7 +1005,14 @@
     <entry file="file://$PROJECT_DIR$/mnstr/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="108" column="40" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1365879609000" expanded="true" signature="136:169" placeholder="{...}" />
+            <marker date="1365879609000" expanded="true" signature="222:251" placeholder="{...}" />
+            <marker date="1365879609000" expanded="true" signature="295:335" placeholder="{...}" />
+            <marker date="1365879609000" expanded="true" signature="466:470" placeholder="{...}" />
+            <marker date="1365879609000" expanded="true" signature="686:691" placeholder="{...}" />
+            <marker date="1365879609000" expanded="true" signature="615:630" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1013,19 +1040,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/admin.py">
+    <entry file="file://$PROJECT_DIR$/monsternews/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="284" selection-end="288" vertical-scroll-proportion="-8.076923">
+        <state line="19" column="16" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/static/css/main.css">
+    <entry file="file://$PROJECT_DIR$/mnstr/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="178" selection-end="178" vertical-scroll-proportion="-7.5">
-          <folding />
+        <state line="17" column="69" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#26#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1038,29 +1067,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/monsternews/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="46" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-6.8333335">
+        <state line="36" column="96" selection-start="1625" selection-end="1625" vertical-scroll-proportion="-8.125">
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="41" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#26#61#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1074,10 +1085,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/templates/comments.html">
+    <entry file="file://$PROJECT_DIR$/mnstr/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="478" selection-end="478" vertical-scroll-proportion="0.24064171">
-          <folding />
+        <state line="10" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="-5.769231">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnstr/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="30" selection-start="858" selection-end="858" vertical-scroll-proportion="0.4103896">
+          <folding>
+            <marker date="1365879609000" expanded="true" signature="136:169" placeholder="{...}" />
+            <marker date="1365879609000" expanded="true" signature="222:251" placeholder="{...}" />
+            <marker date="1365879609000" expanded="true" signature="295:335" placeholder="{...}" />
+            <marker date="1365879609000" expanded="true" signature="466:470" placeholder="{...}" />
+            <marker date="1365879609000" expanded="true" signature="686:691" placeholder="{...}" />
+            <marker date="1365879609000" expanded="true" signature="615:630" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
