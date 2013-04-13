@@ -29,5 +29,5 @@ class Comment(models.Model):
     username = models.CharField(max_length=255, null=True)
     content = models.CharField(max_length=255)
     time = models.DateTimeField(auto_now_add=True)
-    parent = models.ForeignKey("self", null=True, related_name="children")
+    parent = models.ForeignKey("self", null=True, blank=True, related_name="children")
     votes = models.IntegerField(default=0)
