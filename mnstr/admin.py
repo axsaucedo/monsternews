@@ -1,10 +1,14 @@
 from django.contrib import admin
 from mnstr.models import Topic, News, Comment
 
-class NewsAdmin(admin.ModelAdmin):
-    fields = ['name', 'source', 'link', 'image_link', 'topic']
+class NewsInline(admin.StackedInline):
+    model = News
+    extra = 8
 
-    list_display = ['name', 'source', 'link', 'image_link', 'topic']
+class TopicAdmin(admin.ModelAdmin):
+
+    inlines = [NewsInline]
+
 #    ordering = ('zwitchlinkid',)
 
 #class Topic(models.Model):
@@ -25,6 +29,6 @@ class NewsAdmin(admin.ModelAdmin):
 #    parent = models.ForeignKey("self", null=True, related_name="children")
 #    votes = models.IntegerField(default=0)
 
-admin.site.register(Topic)
-admin.site.register(News, NewsAdmin)
+admin.site.register(Topic, TopicAdmin)
+admin.site.register(News)
 admin.site.register(Comment)

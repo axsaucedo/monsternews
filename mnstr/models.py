@@ -20,6 +20,7 @@ class News(models.Model):
 
     name = models.CharField(max_length=255)
     source = models.CharField(max_length=20, choices=SOURCE_CHOICES)
+    description = models.TextField()
     link = models.TextField()
     image_link = models.TextField()
     topic = models.ForeignKey(Topic)
