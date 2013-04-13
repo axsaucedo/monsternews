@@ -24,8 +24,40 @@ var comments = {
 						if (res.full === true) {
 							full_lists.topic_id = true;
 						}
-						topic_comments.append(res.html);
+						topic_comments.find(".comments_list").append(res.html);
 						loading_lists.topic_id = false;
+					}
+				});
+			}
+		});
+		
+		$(".post_comment").on("click", function() {
+			var button = $(this);
+			var topic_comments = button.closest(".topic_comments");
+			var comment_box = button.closest(".post_comment_box");
+			var username = $.trim(comment_box.find(".post_comment_name").val());
+			var content = $.trim(comment_box.find(".post_comment_field").val());
+			if (content !== "") {
+				if (username === "") {
+					username = "anonymous";
+				}
+				button.attr("disabled", "disabled");
+				$.ajax({
+					url: comment_box.attr("data-post_comment_url"),
+					method: "get",
+					dataType: "json",
+					data: {
+						content: content,
+						username: username,
+						topic_id: topic_comments.attr("data-topic_id"),
+					},
+					success: function(res) {
+						topic_comments.find(".comments_list").prepend(res.html);
+						comment_box.find(".post_comment_name").val("");
+						comment_box.find(".post_comment_field").val("");
+					},
+					complete: function() {
+						button.attr("disabled", "");
 					}
 				});
 			}

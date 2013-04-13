@@ -47,3 +47,13 @@ def load_comments(request):
         'full': comments_objs.count() < fetch_comments
     }
     return HttpResponse(simplejson.dumps(data), mimetype='application/javascript')
+
+
+def post_comment(request):
+    comment = Comment(parent=None, topic = Topic.objects.get(pk=request.GET['topic_id']), username=request.GET['username'], content = request.GET['content'])
+    comment.save()
+    data = {
+        'html': render_to_string('layouts/comment.html', { 'comment': comment, 'replies': [] }),
+    }
+    return HttpResponse(simplejson.dumps(data), mimetype='application/javascript')
+

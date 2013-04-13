@@ -1,24 +1,11 @@
-@font-face {
-    font-family: "Urban";
-    src: local("Grandesign Regular"), url("fonts/UrbanJungleDEMO.otf") format("opentype"); /* non-IE */
-}
 
-body {
-    color: #363636;;
-}
 
 h1.page-title
 {
     text-align:center;
-    font-family: Urban;
-    font-size:6em;
-    Margin-top:70px;
-}
-#page-divider
-{
-    width:100%;
-    height: 10px;
-    background-color: #363636;
+    background-color:yellow;
+    font-size:2em;
+    padding:10px 0px 10px 0px;
 }
 
 .topic-title
@@ -64,10 +51,6 @@ h1.page-title
     text-align:left;
 }
 
-.source {
-    height: 400px;
-}
-
 .sources
 {
 
@@ -93,5 +76,15 @@ h1.page-title
     background-size:cover;
     height:40px;
 }
+
+/*.logo-bbc { background-image:url('/static/media/mainimg/bbc.png');	}*/
+/*.logo-sky {	background-image:url('/static/media/mainimg/sky.png'); }*/
+/*.logo-itv {	background-image:url('/static/media/mainimg/itv.png');	}*/
+/*.logo-channel4 { background-image:url('/static/media/mainimg/channel4.png'); }*/
+
+/*.logo-guardian { background-image:url('/static/media/mainimg/guardian.png'); }*/
+/*.logo-independent{ background-image:url('/static/media/mainimg/independent.png'); }*/
+/*.logo-times { background-image:url('/static/media/mainimg/times.png');}*/
+/*.logo-telegraph {background-image:url('/static/media/mainimg/telegraph.png');}*/
 
 .clear { clear:both; }

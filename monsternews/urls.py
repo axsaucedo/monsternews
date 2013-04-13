@@ -17,5 +17,6 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     url(r'^$', 'mnstr.views.home', name='home'),
     url(r'^load_comments/$', 'mnstr.views.load_comments', name='load_comments'),
+    url(r'^post_comment/$', 'mnstr.views.post_comment', name='post_comment'),
     url(r'^admin/', include(admin.site.urls)),
 )
