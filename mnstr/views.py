@@ -74,3 +74,12 @@ def post_reply(request):
     }
     return HttpResponse(simplejson.dumps(data), mimetype='application/javascript')
 
+def vote_comment(request):
+    comment = Comment.objects.get(pk=request.GET['comment_id'])
+    comment.votes += int(request.GET['delta'])
+    comment.save()
+    data = {
+        'votes_count':  comment.votes,
+        'pos': Comment.objects.filter(votes__gte = comment.votes, parent=None, topic=comment.topic).count() - 1
+    }
+    return HttpResponse(simplejson.dumps(data), mimetype='application/javascript')
