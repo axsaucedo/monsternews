@@ -21,15 +21,18 @@
                 </div>
 				<div class="row-fluid">
 					<div class="span9">
-
 						<div class="row-fluid news-box">
-							{% for news in topic.news %}
-			                    <div class="span3 source">
-			                        <div class="div-logo"><img class="source-logo" src="{{ news.source }}"></div>
-			                        <div class="heading">{{ news.name }}</div>
-			                        <a href="{{ news.link }}"><img class="img-source" src="{{ news.image_link }}" /></a>
-			                        <div class="description">{{ news.description }}</div>
-			                    </div>
+							{% for news_group in topic.news_groups %}
+								<div class="row-fluid">
+									{% for news in news_group %}
+					                    <div class="span3 source">
+					                        <div class="div-logo"><img class="source-logo" src="{{ news.source }}"></div>
+					                        <div class="heading">{{ news.name|truncatechars:27 }}</div>
+					                        <a href="{{ news.link }}"><img class="img-source" src="{{ news.image_link }}" /></a>
+					                        <div class="description">{{ news.description|truncatechars:200 }}</div>
+					                    </div>
+				                	{% endfor %}
+			                	</div>
 		                	{% endfor %}
 						</div>
 					</div>
