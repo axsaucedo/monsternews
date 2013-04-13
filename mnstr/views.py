@@ -4,9 +4,6 @@ from mnstr.models import *
 
 def monsterHome(request):
     topics = Topic.objects.all()[:1]
-    comments = Comment.objects.filter(topic_id = topics[0].id)
-    return render(request, "main.html")
-
-
-def home(request):
-    return render(request, "main.html")
+    topic = topics[0]
+    comments = Comment.objects.filter(topic = topic, parent=None).order_by("-votes")[:5]
+    return render(request, "comments.html", {'comments': comments })
