@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/templates/main.html" afterPath="$PROJECT_DIR$/mnstr/templates/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/models.py" afterPath="$PROJECT_DIR$/mnstr/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/views.py" afterPath="$PROJECT_DIR$/mnstr/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="monsternews.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/settings.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365854466260" ignored="false" />
     <file path="/views.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365867913256" ignored="false" />
-    <file path="/Dummy.txt" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365866556703" ignored="false" />
+    <file path="/Dummy.txt" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365869189769" ignored="false" />
     <file path="/README" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365848117236" ignored="false" />
     <file path="/models.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365867520905" ignored="false" />
     <file path="/admin.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365860453380" ignored="false" />
@@ -78,10 +75,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mnstr/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="41" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
+            <state line="16" column="96" selection-start="547" selection-end="575" vertical-scroll-proportion="0.5825243">
               <folding>
                 <element signature="e#26#61#0" expanded="true" />
               </folding>
@@ -89,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comments.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="comments.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnstr/templates/comments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="478" selection-end="478" vertical-scroll-proportion="0.24064171">
+            <state line="5" column="44" selection-start="169" selection-end="169" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
@@ -101,7 +98,7 @@
       <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="46" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-6.8333335">
+            <state line="9" column="53" selection-start="352" selection-end="352" vertical-scroll-proportion="0.625">
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -863,21 +860,25 @@
       <created>1365866558428</created>
       <updated>1365866558428</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;mnstr/views.py&#10;">
+      <created>1365869193985</created>
+      <updated>1365869193985</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32721713" sideWeight="0.49027553" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32721713" sideWeight="0.48703402" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5008104" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32721713" sideWeight="0.50729334" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.493517" order="7" side_tool="false" content_ui="tabs" />
@@ -887,8 +888,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20178282" sideWeight="0.6712538" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.493517" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20178282" sideWeight="0.6727829" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.493517" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1013,11 +1014,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/admin.py">
+    <entry file="file://$PROJECT_DIR$/monsternews/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="284" selection-end="288" vertical-scroll-proportion="-8.076923">
+        <state line="19" column="16" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1029,38 +1030,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mnstr/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="9" selection-start="284" selection-end="288" vertical-scroll-proportion="-8.076923">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mnstr/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="43" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monsternews/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="46" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-6.8333335">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="41" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#26#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1074,10 +1057,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="53" selection-start="352" selection-end="352" vertical-scroll-proportion="0.625">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mnstr/templates/comments.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="478" selection-end="478" vertical-scroll-proportion="0.24064171">
+        <state line="5" column="44" selection-start="169" selection-end="169" vertical-scroll-proportion="-3.125">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnstr/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="96" selection-start="547" selection-end="575" vertical-scroll-proportion="0.5825243">
+          <folding>
+            <element signature="e#26#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
