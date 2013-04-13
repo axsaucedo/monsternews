@@ -111,7 +111,7 @@ ROOT_URLCONF = 'monsternews.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'monsternews.wsgi.application'
 
-TEMPLATE_DIRS = [path.join(PROJECT_ROOT, 'templates')]
+TEMPLATE_DIRS = path.join(PROJECT_ROOT, 'templates')
 
 INSTALLED_APPS = (
     'django.contrib.auth',
