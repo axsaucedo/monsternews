@@ -69,12 +69,21 @@ var comments = {
 		});
 		
 		$("body").on("click", ".reply_button", function() {
+			var comment_container = $(this).closest(".comment_container");
 			$(this).closest(".comments_list").find(".reply_box").remove();
 			var reply_dom = $("#reply_box_sample").find(".reply_box").clone();
 			reply_dom.find(".post_reply_field").val("@" + $(this).closest(".comment").find(".commenter_name").html() + " - ");
-			$(this).closest(".comment_container").find(".replies_list").show();
-			$(this).closest(".comment_container").find(".replies_list_body").append(reply_dom);
-			
+			comment_container.find(".replies_list").show();
+			comment_container.find(".replies_list_body").append(reply_dom);
+			var scroll_to = $(this).closest(".topic_comments").find(".post_comment_box").height();
+			comment_container.prevAll(".comment_container").each(function() {
+				scroll_to += $(this).height();
+			});
+			comment_container.find(".comment:visible").each(function() { 
+				scroll_to += $(this).height();
+			});
+			$(this).closest(".topic_comments").scrollTop(scroll_to);
+			reply_dom.find(".post_reply_field").focus();
 		});
 		
 		$("body").on("click", ".post_reply", function() {
