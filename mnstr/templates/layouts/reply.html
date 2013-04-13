@@ -1,7 +1,7 @@
-<div class="row-fluid comment" style="padding:5px; border: 1px solid; {% if not display %} display:none;{% endif %} ">
+<div class="row-fluid comment" data-vote_url="/vote_comment/" data-comment_id="{{ comment.id }}" style="padding:5px; border: 1px solid; {% if not display %} display:none;{% endif %} ">
 	<div class="span1" style="text-align:center;">
 		<i class="icon-chevron-up up_vote" style="cursor:pointer;"></i><br>
-		{{ comment.votes }}<br>
+		<span class="votes_count">{{ comment.votes }}</span><br>
 		<i class="icon-chevron-down down_vote" style="cursor:pointer;"></i><br>
 	</div>
 	<div class="span11">

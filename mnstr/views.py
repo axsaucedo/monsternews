@@ -6,6 +6,7 @@ from django.utils import simplejson
 from django.http import HttpResponse
 
 fetch_comments = 5
+line_news = 4
 
 def home(request):
     allTopics = Topic.objects.all()[:5]
@@ -14,17 +15,17 @@ def home(request):
     for topic in allTopics:
         #Retreiving News objects from database related to topic
         news_objs =  News.objects.filter(topic=topic)
-
-        #Fixing length of name and description
-        for n in news_objs:
-            if n.name.__len__() > 27:
-                n.name = n.name[:27] + "..."
-            if n.description.__len__() > 200:
-                n.description = n.description[:200] + "..."
-            n.source = "static/media/mainimg/" + n.source + ".png"
+        
+        news_groups = []
+        
+        news_count = news_objs.count()
+        slice_pos = 0
+        while slice_pos < news_count:
+            news_groups.append(news_objs[slice_pos:slice_pos + line_news])
+            slice_pos += line_news
 
         #retreiving Comments object from database related to topic
-        comments_objs = Comment.objects.filter(topic=topic, parent=None).order_by("-votes")[:5]
+        comments_objs = Comment.objects.filter(topic=topic, parent=None).order_by("-votes")[:fetch_comments]
         comments = [] #This object will retain Comments and Replies
 
         #Splitting comments and replies
@@ -35,7 +36,7 @@ def home(request):
                 'replies': replies
             })
 
-        topics.append({ 'topic' : topic ,'news': news_objs, 'comments' : comments})
+        topics.append({ 'topic' : topic ,'news_groups': news_groups, 'comments' : comments})
 
     return render(request, "main.html", { 'topics' : topics })
 
@@ -80,6 +81,8 @@ def vote_comment(request):
     comment.save()
     data = {
         'votes_count':  comment.votes,
-        'pos': Comment.objects.filter(votes__gte = comment.votes, parent=None, topic=comment.topic).count() - 1
+        'pos': -1 
     }
+    if comment.parent == None:
+        data['pos'] = Comment.objects.filter(votes__gte = comment.votes, parent=None, topic=comment.topic).count() - 1
     return HttpResponse(simplejson.dumps(data), mimetype='application/javascript')
