@@ -31,9 +31,13 @@ var comments = {
 			}
 		});
 		
+		function show_replies(button) {
+			button.closest(".comment_container").find(".replies_list").show();
+			button.closest(".comment_container").find(".comment").show();
+		}
+		
 		$("body").on("click", ".show_replies", function() {
-			$(this).closest(".comment_container").find(".replies_list").show();
-			$(this).closest(".comment_container").find(".comment").show();
+			show_replies($(this));
 		});
 		
 		$("body").on("click", ".post_comment", function() {
@@ -69,6 +73,7 @@ var comments = {
 		});
 		
 		$("body").on("click", ".reply_button", function() {
+			show_replies($(this));
 			var comment_container = $(this).closest(".comment_container");
 			$(this).closest(".comments_list").find(".reply_box").remove();
 			var reply_dom = $("#reply_box_sample").find(".reply_box").clone();
