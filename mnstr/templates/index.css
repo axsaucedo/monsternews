@@ -15,14 +15,14 @@ body
 			h1.page-title
 			{
 				text-align:center;
-				background-color:yellow;
+				/*background-color:yellow;*/
 				font-size:2em;
-				padding:10px 0px 10px 0px;
+				padding:0px 0px 0px 0px;
 			}
 			
 			.topic-title
 			{
-				background-color:yellow;
+				background-color:gray;
 			}
 			
 			.stories
@@ -45,6 +45,7 @@ body
 				border:1px solid #ccc;
 				float:right;
 				margin-left:10px;
+				margin-top:50px;
 				width:210px;
 			}
 			
@@ -52,7 +53,8 @@ body
 			{
 				font-weight:bold;
 				text-align:center;
-				
+				font-family:arial;
+				padding-top:3px;
 			}
 			
 			
@@ -68,10 +70,10 @@ body
 			
 			.story-title
 			{
-				background-color:yellow;
+				background-color:none;
 				font-weight:bold;
 				display:inline;
-				margin-bottom:20px;
+				/*margin-bottom:20px;*/
 				text-align:left;
 			}
 			
@@ -90,8 +92,14 @@ body
 				width:160px;
 			}
 			
+			.source .summary
+			{
+				font-size:0.8em;
+			}
+			
 			.source .heading
 			{
+				font-family:arial;
 				font-weight:bold;
 			}
 		
@@ -127,3 +135,16 @@ body
 			.floatRight { float:right;  }
 			
 			.ago { display:block; text-align:right; }
+			
+			@font-face {
+				font-family: 'ChunkFiveRegular';
+				src: url('fonts/Chunkfive-webfont.eot');
+				src: url('fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+					 url('fonts/Chunkfive-webfont.woff') format('woff'),
+					 url('fonts/Chunkfive-webfont.ttf') format('truetype'),
+					 url('fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+				font-weight: normal;
+				font-style: normal;
+			}
+			
+			.chunk {font: 2em 'ChunkFiveRegular', Arial, sans-serif !important;}
