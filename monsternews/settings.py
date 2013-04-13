@@ -18,8 +18,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': 'monsterdb',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
-        'USER': 'root',
-        'PASSWORD': 'romanton',
+        'USER': 'monster',
+        'PASSWORD': 'monster',
         'HOST': '',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
         'PORT': '',                      # Set to empty string for default.
     }
@@ -111,7 +111,7 @@ ROOT_URLCONF = 'monsternews.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'monsternews.wsgi.application'
 
-TEMPLATE_DIRS = ('/Users/axsauze/IdeaProjects/monsternews/templates',)
+TEMPLATE_DIRS = [path.join(PROJECT_ROOT, 'templates')]
 
 INSTALLED_APPS = (
     'django.contrib.auth',
