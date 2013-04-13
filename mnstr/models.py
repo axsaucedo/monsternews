@@ -5,6 +5,9 @@ from django.conf import settings
 
 class Topic(models.Model):
     name = models.CharField(max_length=255)
+
+    def __unicode__(self):
+        return self.name
     
 class News(models.Model):
     SOURCE_CHOICES = (
@@ -25,10 +28,16 @@ class News(models.Model):
     image_link = models.TextField()
     topic = models.ForeignKey(Topic)
 
+    def __unicode__(self):
+        return self.name
+
 class Comment(models.Model):
     topic = models.ForeignKey(Topic)
     username = models.CharField(max_length=255, null=True)
-    content = models.CharField(max_length=255)
+    content = models.TextField()
     time = models.DateTimeField(auto_now_add=True)
     parent = models.ForeignKey("self", null=True, blank=True, related_name="children")
     votes = models.IntegerField(default=0)
+
+    def __unicode__(self):
+        return self.username

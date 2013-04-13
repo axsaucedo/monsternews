@@ -32,13 +32,17 @@
 
                 {% endfor %}
 
-            </div>
 
-            <div class="story-comments">
-                <div class="story-comments-title">COMMENTS</div>
-                <div class="comment"></div>
-            </div>
 
+                <div class="row-fluid">
+                    <div class="span4">&nbsp</div>
+                    <div data-topic_id="{{ topic.name }}" data-load_comments_url="/load_comments/" class="span4 topic_comments" style="border: 2px solid; height: 500px; overflow-y: scroll; overflow-x: hidden;" data-topic-id="{{ topic.id }}">
+                        {% for comment in topic.comments %}
+                            {% include "layouts/comment.html" with comment=topic.comments.comment replies=topic.comments.replies %}
+                        {% endfor %}
+                    </div>
+                    <div class="span4">&nbsp</div>
+                </div>
         </div>
     {% endfor %}
 </div>
