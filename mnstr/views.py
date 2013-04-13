@@ -15,6 +15,14 @@ def home(request):
         #Retreiving News objects from database related to topic
         news_objs =  News.objects.filter(topic=topic)
 
+        #Fixing length of name and description
+        for n in news_objs:
+            if n.name.__len__() > 27:
+                n.name = n.name[:27] + "..."
+            if n.description.__len__() > 200:
+                n.description = n.description[:200] + "..."
+            n.source = "static/media/mainimg/" + n.source + ".png"
+
         #retreiving Comments object from database related to topic
         comments_objs = Comment.objects.filter(topic=topic, parent=None).order_by("-votes")[:5]
         comments = [] #This object will retain Comments and Replies

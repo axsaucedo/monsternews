@@ -42,6 +42,12 @@ h1.page-title
 
 }
 
+.div-logo {
+    width: 180px;
+    height: 40px;
+    margin: auto auto;
+}
+
 .img-source {
     width: 200px;
     height: 130px;
@@ -55,7 +61,7 @@ h1.page-title
 .source
 {
     height: 250px;
-    border: solid;
+    min-width: 170px;
     padding: 5px;
 }
 
@@ -63,4 +69,31 @@ h1.page-title
 {
     font-family: Century Gothic;
     font-weight: bold;
+}
+
+.comments_list {
+    font-size: 13px;
+    line-height: 1.3em;
+}
+
+.topic_comments {
+    min-width: 245px;
+}
+
+.post_comment {
+    margin: 10px;
+    width:85px;
+}
+
+.post_comment_name {
+    width: 110px;
+    float:right;
+    margin-top: 10px;
+    margin-right:10px;
+}
+
+.post_comment_field {
+    width: 220px;
+    margin: 5px;
+    margin-bottom:10px;
 }
