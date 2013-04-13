@@ -22,8 +22,9 @@ h1.page-title
     font-size:6em;
     margin-top: 80px;
 }
-.img-title {
+.img-title img {
     width:100%;
+    position:relative;
 }
 
 .topic-title
