@@ -2,4 +2,4 @@
 from django.shortcuts import render
 
 def monsterHome(request):
-    return render("HEllo")
+    return render(request, "monsterhome.html")
