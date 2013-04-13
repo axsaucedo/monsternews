@@ -4,7 +4,8 @@ from os import path
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
-PROJECT_ROOT = path.abspath(path.dirname(__file__))
+PROJECT_ROOT = path.abspath(path.dirname(__file__)).split('/')[:-1]
+PROJECT_ROOT = '/'.join([str(x) for x in PROJECT_ROOT])
 
 ADMINS = (
     ('Alejandro', 'axsauze@gmail.com'),
@@ -112,6 +113,7 @@ ROOT_URLCONF = 'monsternews.urls'
 WSGI_APPLICATION = 'monsternews.wsgi.application'
 
 TEMPLATE_DIRS = path.join(PROJECT_ROOT, 'templates')
+
 
 INSTALLED_APPS = (
     'django.contrib.auth',
