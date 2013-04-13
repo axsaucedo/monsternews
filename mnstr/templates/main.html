@@ -11,93 +11,36 @@
 <body>
 <h1 class="page-title">mnstr</h1>
 
-<div class="stories">
+<div class="topics">
 
-    <div class="story">
+    {% for topic in topics %}
+        <div class="topic">
+            <h2 class="topic-title">{{ topic.topic.name }}</h2>
+            <div class="clear"></div>
+            <br <br /><br />
 
-        <h2 class="story-title">#KOREAN NUCLEAR CRISIS</h2>
-        <div class="clear"></div>
-        <br /><br />
+            <div class="sources">
 
-        <div class="source-category">UK TELEVISION</div>
-        <br /><br />
+                {% for news in topic.news %}
 
-        <div class="sources">
+                    <div class="source">
+                        <div class="source-logo">{{ news.source }}</div>
+                        <div class="heading">{{ news.name }}</div>
+                        <a href="{{ news.link }}"><img src="{{ news.image_link }}" /></a>
+                        <div class="description">{{ news.description }}</div>
+                    </div>
 
-            <div class="source">
-                <div class="logo logo-bbc"></div>
-                <div class="heading">TITLE</div>
-                <img src="" />
-                <div class="summary">Summary summary</div>
+                {% endfor %}
+
             </div>
 
-            <div class="source">
-                <div class="logo logo-sky"></div>
-                <div class="heading">TITLE</div>
-                <img src="" />
-                <div class="summary">Summary summary</div>
-            </div>
-
-            <div class="source">
-                <div class="logo logo-itv"></div>
-                <div class="heading">TITLE</div>
-                <img src="" />
-                <div class="summary">Summary summary</div>
-            </div>
-
-            <div class="source">
-                <div class="logo logo-channel4"></div>
-                <div class="heading">TITLE</div>
-                <img src="" />
-                <div class="summary">Summary summary</div>
+            <div class="story-comments">
+                <div class="story-comments-title">COMMENTS</div>
+                <div class="comment"></div>
             </div>
 
         </div>
-
-
-        <div class="clear"></div>
-        <br />
-        <div class="source-category">UK NEWSPAPER</div>
-        <br /><br />
-
-        <div class="sources">
-
-            <div class="source">
-                <div class="logo logo-guardian"></div>
-                <div class="heading">TITLE</div>
-                <img src="" />
-                <div class="summary">Summary summary</div>
-            </div>
-
-            <div class="source">
-                <div class="logo logo-independent"></div>
-                <div class="heading">TITLE</div>
-                <img src="" />
-                <div class="summary">Summary summary</div>
-            </div>
-
-            <div class="source">
-                <div class="logo logo-times"></div>
-                <div class="heading">TITLE</div>
-                <img src="" />
-                <div class="summary">Summary summary</div>
-            </div>
-
-            <div class="source">
-                <div class="logo logo-telegraph"></div>
-                <div class="heading">TITLE</div>
-                <img src="" />
-                <div class="summary">Summary summary</div>
-            </div>
-
-        </div>
-
-        <div class="story-comments">
-            <div class="story-comments-title">COMMENTS</div>
-            <div class="comment"></div>
-        </div>
-
-    </div>
+    {% endfor %}
 </div>
 
 
