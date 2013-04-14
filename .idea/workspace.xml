@@ -3,14 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/templates/main.html" afterPath="$PROJECT_DIR$/mnstr/templates/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/templates/layouts/topics.html" afterPath="$PROJECT_DIR$/mnstr/templates/layouts/topics.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="monsternews.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/settings.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365882252809" ignored="false" />
     <file path="/views.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365894374910" ignored="false" />
-    <file path="/Dummy.txt" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365932323731" ignored="false" />
+    <file path="/Dummy.txt" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365935249482" ignored="false" />
     <file path="/README" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365848117236" ignored="false" />
     <file path="/models.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365867520905" ignored="false" />
     <file path="/admin.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365860453380" ignored="false" />
@@ -119,27 +118,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="16" selection-start="441" selection-end="445" vertical-scroll-proportion="0.28">
+            <state line="10" column="53" selection-start="465" selection-end="465" vertical-scroll-proportion="0.41551247">
               <folding>
-                <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topics.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="topics.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnstr/templates/layouts/topics.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="55" selection-start="484" selection-end="484" vertical-scroll-proportion="0.24064171">
+            <state line="14" column="55" selection-start="734" selection-end="734" vertical-scroll-proportion="-3.75">
               <folding>
-                <element signature="e#802#903#0" expanded="true" />
-                <element signature="e#964#1102#0" expanded="true" />
-                <element signature="e#1957#2020#0" expanded="true" />
+                <element signature="e#744#764#0" expanded="true" />
+                <element signature="e#998#1099#0" expanded="true" />
+                <element signature="e#1160#1298#0" expanded="true" />
+                <element signature="e#2153#2216#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,8 +208,8 @@
         <option value="$PROJECT_DIR$/mnstr/models.py" />
         <option value="$PROJECT_DIR$/mnstr/views.py" />
         <option value="$PROJECT_DIR$/mnstr/static/css/main.css" />
-        <option value="$PROJECT_DIR$/mnstr/templates/main.html" />
         <option value="$PROJECT_DIR$/mnstr/templates/layouts/topics.html" />
+        <option value="$PROJECT_DIR$/mnstr/templates/main.html" />
       </list>
     </option>
   </component>
@@ -522,7 +522,11 @@
             <option name="mySupportsDeletion" value="false" />
             <option name="myCanBeAbsent" value="false" />
             <option name="myId" value="UPDATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/static/js/comments.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/static/js/mnstr.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/layouts/topics.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/main.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/views.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/views.pyc</PATH>
           </FILE-GROUP>
           <FILE-GROUP>
             <option name="myUpdateName" value="Created" />
@@ -1021,7 +1025,11 @@
       <created>1365932326199</created>
       <updated>1365932326199</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="FUCKING XML FILE&#10;">
+      <created>1365935258057</created>
+      <updated>1365935258057</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1035,10 +1043,10 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.04700162" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.044570502" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.94732577" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.94975686" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.493517" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -1133,9 +1141,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="46" selection-start="2062" selection-end="2062" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1239,24 +1247,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
+    <entry file="file://$PROJECT_DIR$/mnstr/templates/layouts/topics.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="441" selection-end="445" vertical-scroll-proportion="0.28">
+        <state line="14" column="55" selection-start="734" selection-end="734" vertical-scroll-proportion="-3.75">
           <folding>
-            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#744#764#0" expanded="true" />
+            <element signature="e#998#1099#0" expanded="true" />
+            <element signature="e#1160#1298#0" expanded="true" />
+            <element signature="e#2153#2216#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/templates/layouts/topics.html">
+    <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="55" selection-start="484" selection-end="484" vertical-scroll-proportion="0.24064171">
+        <state line="10" column="53" selection-start="465" selection-end="465" vertical-scroll-proportion="0.41551247">
           <folding>
-            <element signature="e#802#903#0" expanded="true" />
-            <element signature="e#964#1102#0" expanded="true" />
-            <element signature="e#1957#2020#0" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
