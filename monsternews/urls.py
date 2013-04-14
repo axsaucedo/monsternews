@@ -21,5 +21,6 @@ urlpatterns = patterns('',
     url(r'^post_reply/$', 'mnstr.views.post_reply', name='post_reply'),
     url(r'^vote_comment/$', 'mnstr.views.vote_comment', name='vote_comment'),
     url(r'^source_click/$', 'mnstr.views.source_click', name='source_click'),
+    url(r'^load_topics/$', 'mnstr.views.load_topics', name='load_topics'),
     url(r'^admin/', include(admin.site.urls)),
 )
