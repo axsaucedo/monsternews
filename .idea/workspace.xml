@@ -2,26 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/templates/main.html" afterPath="$PROJECT_DIR$/mnstr/templates/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/static/css/main.css" afterPath="$PROJECT_DIR$/mnstr/static/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/static/js/mnstr.js" afterPath="$PROJECT_DIR$/mnstr/static/js/mnstr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/templates/layouts/topics.html" afterPath="$PROJECT_DIR$/mnstr/templates/layouts/topics.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="monsternews.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/settings.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365882252809" ignored="false" />
-    <file path="/views.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365894374910" ignored="false" />
-    <file path="/Dummy.txt" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365935249482" ignored="false" />
+    <file path="/views.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365935861806" ignored="false" />
+    <file path="/Dummy.txt" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365935351459" ignored="false" />
     <file path="/README" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365848117236" ignored="false" />
     <file path="/models.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365867520905" ignored="false" />
     <file path="/admin.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365860453380" ignored="false" />
     <file path="/urls.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365859037839" ignored="false" />
     <file path="$PROJECT_DIR$/../zwitchitproject/zwitchit/urls.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365851061498" ignored="false" />
     <file path="/base_site.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365852165647" ignored="false" />
-    <file path="/main.css" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365930485082" ignored="false" />
+    <file path="/main.css" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365937498543" ignored="false" />
     <file path="/main.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365932412017" ignored="false" />
-    <file path="/mnstr.js" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365886543196" ignored="false" />
+    <file path="/mnstr.js" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365937829182" ignored="false" />
     <file path="/comment.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365901916907" ignored="false" />
     <file path="/reply.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365902025712" ignored="false" />
-    <file path="/topics.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365935043990" ignored="false" />
+    <file path="/topics.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365937450137" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +85,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnstr/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="24" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
+            <state line="20" column="66" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#26#61#0" expanded="true" />
               </folding>
@@ -118,10 +120,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="53" selection-start="465" selection-end="465" vertical-scroll-proportion="0.41551247">
+            <state line="32" column="28" selection-start="1431" selection-end="1431" vertical-scroll-proportion="-5.42">
               <folding>
                 <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -134,13 +136,22 @@
       <file leaf-file-name="topics.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnstr/templates/layouts/topics.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="55" selection-start="734" selection-end="734" vertical-scroll-proportion="-3.75">
+            <state line="38" column="63" selection-start="2495" selection-end="2495" vertical-scroll-proportion="-10.625">
               <folding>
                 <element signature="e#744#764#0" expanded="true" />
-                <element signature="e#998#1099#0" expanded="true" />
-                <element signature="e#1160#1298#0" expanded="true" />
-                <element signature="e#2153#2216#0" expanded="true" />
+                <element signature="e#1057#1158#0" expanded="true" />
+                <element signature="e#1211#1349#0" expanded="true" />
+                <element signature="e#3119#3182#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mnstr.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mnstr/static/js/mnstr.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="84" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.5620438">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -170,7 +181,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnstr/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+            <state line="28" column="12" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -202,14 +213,14 @@
         <option value="$PROJECT_DIR$/monsternews/urls.py" />
         <option value="$PROJECT_DIR$/mnstr/admin.py" />
         <option value="$PROJECT_DIR$/monsternews/settings.py" />
-        <option value="$PROJECT_DIR$/mnstr/static/js/mnstr.js" />
         <option value="$PROJECT_DIR$/mnstr/templates/layouts/comment.html" />
         <option value="$PROJECT_DIR$/mnstr/templates/layouts/reply.html" />
         <option value="$PROJECT_DIR$/mnstr/models.py" />
         <option value="$PROJECT_DIR$/mnstr/views.py" />
-        <option value="$PROJECT_DIR$/mnstr/static/css/main.css" />
-        <option value="$PROJECT_DIR$/mnstr/templates/layouts/topics.html" />
         <option value="$PROJECT_DIR$/mnstr/templates/main.html" />
+        <option value="$PROJECT_DIR$/mnstr/templates/layouts/topics.html" />
+        <option value="$PROJECT_DIR$/mnstr/static/css/main.css" />
+        <option value="$PROJECT_DIR$/mnstr/static/js/mnstr.js" />
       </list>
     </option>
   </component>
@@ -1029,7 +1040,11 @@
       <created>1365935258057</created>
       <updated>1365935258057</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="FUCKING XML FILE&#10;">
+      <created>1365935354458</created>
+      <updated>1365935354458</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1183,22 +1198,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/static/js/mnstr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="75" selection-end="75" vertical-scroll-proportion="0.32846716">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="32" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mnstr/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="-5.769231">
@@ -1223,9 +1222,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mnstr/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
+        <state line="20" column="66" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#26#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnstr/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="32" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1240,33 +1248,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/templates/layouts/topics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="55" selection-start="734" selection-end="734" vertical-scroll-proportion="-3.75">
-          <folding>
-            <element signature="e#744#764#0" expanded="true" />
-            <element signature="e#998#1099#0" expanded="true" />
-            <element signature="e#1160#1298#0" expanded="true" />
-            <element signature="e#2153#2216#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="53" selection-start="465" selection-end="465" vertical-scroll-proportion="0.41551247">
+        <state line="32" column="28" selection-start="1431" selection-end="1431" vertical-scroll-proportion="-5.42">
           <folding>
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnstr/templates/layouts/topics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="63" selection-start="2495" selection-end="2495" vertical-scroll-proportion="-10.625">
+          <folding>
+            <element signature="e#744#764#0" expanded="true" />
+            <element signature="e#1057#1158#0" expanded="true" />
+            <element signature="e#1211#1349#0" expanded="true" />
+            <element signature="e#3119#3182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnstr/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="12" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnstr/static/js/mnstr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="84" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.5620438">
+          <folding />
         </state>
       </provider>
     </entry>
