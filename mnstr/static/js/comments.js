@@ -32,12 +32,19 @@ var comments = {
 		});
 		
 		function show_replies(button) {
-			button.closest(".comment_container").find(".replies_list").show();
-			button.closest(".comment_container").find(".comment").show();
+			var replies_number = button.closest(".comment_container").find(".replies_list_body .comment").length;
+			if (replies_number > 0) {
+				button.closest(".comment_container").find(".replies_list").show();
+				button.closest(".comment_container").find(".comment").show();
+			}
 		}
 		
 		$("body").on("click", ".show_replies", function() {
-			show_replies($(this));
+			var replies_number = $(this).closest(".comment_container").find(".replies_list_body .comment").length;
+			if (replies_number > 0) {
+				$(this).closest(".comment_container").find(".replies_list").show();
+				$(this).closest(".comment_container").find(".comment").show();
+			}
 		});
 		
 		$("body").on("click", ".post_comment", function() {
@@ -73,7 +80,8 @@ var comments = {
 		});
 		
 		$("body").on("click", ".reply_button", function() {
-			show_replies($(this));
+			$(this).closest(".comment_container").find(".replies_list").show();
+			$(this).closest(".comment_container").find(".comment").show();
 			var comment_container = $(this).closest(".comment_container");
 			$(this).closest(".comments_list").find(".reply_box").remove();
 			var reply_dom = $("#reply_box_sample").find(".reply_box").clone();
