@@ -9,7 +9,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/settings.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365882252809" ignored="false" />
     <file path="/views.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365894374910" ignored="false" />
-    <file path="/Dummy.txt" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365932264639" ignored="false" />
+    <file path="/Dummy.txt" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365932281049" ignored="false" />
     <file path="/README" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365848117236" ignored="false" />
     <file path="/models.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365867520905" ignored="false" />
     <file path="/admin.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365860453380" ignored="false" />
@@ -120,11 +120,8 @@
       <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="44" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.3448276">
+            <state line="20" column="12" selection-start="696" selection-end="696" vertical-scroll-proportion="0.66481996">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1014,7 +1011,11 @@
       <created>1365932266827</created>
       <updated>1365932266827</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="FUCKING XML FILE&#10;">
+      <created>1365932284644</created>
+      <updated>1365932284644</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1126,9 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="46" selection-start="2062" selection-end="2062" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#textarea#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1248,11 +1246,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="44" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.3448276">
+        <state line="20" column="12" selection-start="696" selection-end="696" vertical-scroll-proportion="0.66481996">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#textarea#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
