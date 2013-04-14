@@ -10,7 +10,9 @@
 						{% for news in news_group %}
 		                    <div class="span3 source" data-source_id="{{ news.id }}" data-source_click_url="/source_click/">
 		                        <div class="div-logo"><img class="source-logo" src="{{ news.source }}"></div>
-		                        <div class="heading">{{ news.name|truncatechars:27 }}</div>
+		                        <div class="heading news_displayed_name">{{ news.name|truncatechars:27 }}
+		                        	<span class="real_news_name" style="display:none">{{ news.name }}</span>
+		                        </div>
 		                        <a href="{{ news.link }}">
                                              <div class="img-source">
                                                  <div style="width:90%; height:100%; background-size:contain; background-image:url('{{ news.image_link }}');">

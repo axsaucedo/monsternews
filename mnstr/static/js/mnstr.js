@@ -53,6 +53,10 @@ var mnstr = {
 			}
 		});
 		
+		$("body").on("mouseover", ".news_displayed_name", function() {
+			$(this).tooltip({ title: $(this).find(".real_news_name").text()});
+		});
+		
 	}
 }
 
