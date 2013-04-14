@@ -22,8 +22,12 @@ def get_topics_list(allTopics):
         
         news_count = news_objs.count()
         slice_pos = 0
+        
+        def sort_news(a, b):
+            return a.id > b.id
+        
         while slice_pos < news_count:
-            news_groups.append(news_objs[slice_pos:slice_pos + line_news])
+            news_groups.append(sorted(news_objs[slice_pos:slice_pos + line_news], key=lambda a : a.views, reverse=True))
             slice_pos += line_news
 
 
