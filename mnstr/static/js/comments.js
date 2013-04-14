@@ -90,7 +90,11 @@ var comments = {
 			$(this).closest(".comment_container").find(".replies_list").show();
 			$(this).closest(".comment_container").find(".comment").show();
 			var comment_container = $(this).closest(".comment_container");
-			$(this).closest(".comments_list").find(".reply_box").remove();
+			var shown_reply_box = $(this).closest(".comments_list").find(".reply_box");
+			if (shown_reply_box.length > 0) {
+				shown_reply_box.closest(".comment_container").find(".replies_list").hide();
+			}
+			shown_reply_box.remove();
 			var reply_dom = $("#reply_box_sample").find(".reply_box").clone();
 			reply_dom.find(".post_reply_field").val("@" + $(this).closest(".comment").find(".commenter_name").html() + " - ");
 			comment_container.find(".replies_list").show();
