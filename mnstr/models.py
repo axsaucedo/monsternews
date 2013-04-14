@@ -27,6 +27,7 @@ class News(models.Model):
     link = models.TextField()
     image_link = models.TextField()
     topic = models.ForeignKey(Topic)
+    views = models.IntegerField(default=0)
 
     def __unicode__(self):
         return self.name
