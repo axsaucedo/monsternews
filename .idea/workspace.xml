@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/static/css/main.css" afterPath="$PROJECT_DIR$/mnstr/static/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/static/js/mnstr.js" afterPath="$PROJECT_DIR$/mnstr/static/js/mnstr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/templates/layouts/topics.html" afterPath="$PROJECT_DIR$/mnstr/templates/layouts/topics.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/views.py" afterPath="$PROJECT_DIR$/mnstr/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="monsternews.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/settings.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365882252809" ignored="false" />
     <file path="/views.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365935861806" ignored="false" />
-    <file path="/Dummy.txt" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365935351459" ignored="false" />
+    <file path="/Dummy.txt" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365937884903" ignored="false" />
     <file path="/README" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365848117236" ignored="false" />
     <file path="/models.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365867520905" ignored="false" />
     <file path="/admin.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365860453380" ignored="false" />
@@ -82,10 +80,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mnstr/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="66" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
+            <state line="23" column="21" selection-start="659" selection-end="659" vertical-scroll-proportion="0.41457286">
               <folding>
                 <element signature="e#26#61#0" expanded="true" />
               </folding>
@@ -147,10 +145,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mnstr.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mnstr.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnstr/static/js/mnstr.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="84" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.5620438">
+            <state line="37" column="53" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -216,11 +214,11 @@
         <option value="$PROJECT_DIR$/mnstr/templates/layouts/comment.html" />
         <option value="$PROJECT_DIR$/mnstr/templates/layouts/reply.html" />
         <option value="$PROJECT_DIR$/mnstr/models.py" />
-        <option value="$PROJECT_DIR$/mnstr/views.py" />
         <option value="$PROJECT_DIR$/mnstr/templates/main.html" />
         <option value="$PROJECT_DIR$/mnstr/templates/layouts/topics.html" />
         <option value="$PROJECT_DIR$/mnstr/static/css/main.css" />
         <option value="$PROJECT_DIR$/mnstr/static/js/mnstr.js" />
+        <option value="$PROJECT_DIR$/mnstr/views.py" />
       </list>
     </option>
   </component>
@@ -533,9 +531,6 @@
             <option name="mySupportsDeletion" value="false" />
             <option name="myCanBeAbsent" value="false" />
             <option name="myId" value="UPDATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/static/js/mnstr.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/layouts/topics.html</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/templates/main.html</PATH>
             <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/views.py</PATH>
             <PATH vcs="Git" revision="">$PROJECT_DIR$/mnstr/views.pyc</PATH>
           </FILE-GROUP>
@@ -1044,7 +1039,11 @@
       <created>1365935354458</created>
       <updated>1365935354458</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="FUCKING XML FILE&#10;">
+      <created>1365937893107</created>
+      <updated>1365937893107</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1058,10 +1057,10 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.044570502" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.042139385" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.94975686" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.952188" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.493517" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -1220,15 +1219,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="66" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#26#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mnstr/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="32" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0">
@@ -1280,8 +1270,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mnstr/static/js/mnstr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="84" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.5620438">
+        <state line="37" column="53" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnstr/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="21" selection-start="659" selection-end="659" vertical-scroll-proportion="0.41457286">
+          <folding>
+            <element signature="e#26#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
