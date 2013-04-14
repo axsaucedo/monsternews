@@ -90,3 +90,9 @@ def vote_comment(request):
     if comment.parent == None:
         data['pos'] = Comment.objects.filter(votes__gte = comment.votes, parent=None, topic=comment.topic).count() - 1
     return HttpResponse(simplejson.dumps(data), mimetype='application/javascript')
+
+def source_click(request):
+    news = News.objects.get(pk=request.GET['source_id'])
+    news.views += 1
+    news.save()
+    return HttpResponse()
