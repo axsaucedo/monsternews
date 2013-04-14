@@ -1,14 +1,15 @@
-<div class="row-fluid comment" data-vote_url="/vote_comment/" data-comment_id="{{ comment.id }}" style="padding:5px; border: 1px solid; {% if not display %} display:none;{% endif %} ">
+<div class="row-fluid comment" data-vote_url="/vote_comment/" data-comment_id="{{ comment.id }}" style="padding:5px; {% if not display %} display:none;{% endif %} ">
 	<div class="span1" style="text-align:center;">
 		<i class="icon-chevron-up up_vote" style="cursor:pointer;"></i><br>
 		<span class="votes_count">{{ comment.votes }}</span><br>
 		<i class="icon-chevron-down down_vote" style="cursor:pointer;"></i><br>
 	</div>
-	<div class="span11">
+	<div class="span11 comment-section">
 		<div class="row-fluid commenter">
-			<span class="commenter_name">{{ comment.username }}</span> - {{ comment.time|timesince }} ago
+			<span class="commenter_name">{{ comment.username }}</span>
+            <span class="commenter_date">{{ comment.time|timesince }} ago</span>
 		</div>
-		<div class="row-fluid" style="word-wrap:break-word;">
+		<div class="row-fluid comment-content" style="word-wrap:break-word;">
 			{{ comment.content }}
 		</div>
 		<div class="row-fluid">

@@ -7,9 +7,10 @@
 		</div>
 		<div class="span11">
 			<div class="row-fluid commenter">
-				<span class="commenter_name">{{ comment.username }}</span> - {{ comment.time|timesince }} ago
+				<span class="commenter_name">{{ comment.username }}</span>
+                <span class="commenter_date">{{ comment.time|timesince }} ago</span>
 			</div>
-			<div class="row-fluid" style="word-wrap:break-word;">
+			<div class="row-fluid comment-content" style="word-wrap:break-word;">
 				{{ comment.content }}
 			</div>
 			<div class="row-fluid">

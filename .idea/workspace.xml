@@ -4,24 +4,25 @@
     <list default="true" id="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/templates/layouts/comment.html" afterPath="$PROJECT_DIR$/mnstr/templates/layouts/comment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/static/css/main.css" afterPath="$PROJECT_DIR$/mnstr/static/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/templates/main.html" afterPath="$PROJECT_DIR$/mnstr/templates/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnstr/templates/layouts/reply.html" afterPath="$PROJECT_DIR$/mnstr/templates/layouts/reply.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="monsternews.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/settings.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365882252809" ignored="false" />
     <file path="/views.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365894374910" ignored="false" />
-    <file path="/Dummy.txt" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365898681301" ignored="false" />
+    <file path="/Dummy.txt" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365900384589" ignored="false" />
     <file path="/README" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365848117236" ignored="false" />
     <file path="/models.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365867520905" ignored="false" />
     <file path="/admin.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365860453380" ignored="false" />
     <file path="/urls.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365859037839" ignored="false" />
     <file path="$PROJECT_DIR$/../zwitchitproject/zwitchit/urls.py" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365851061498" ignored="false" />
     <file path="/base_site.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365852165647" ignored="false" />
-    <file path="/main.css" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365900336947" ignored="false" />
+    <file path="/main.css" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365902050502" ignored="false" />
     <file path="/main.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365898905777" ignored="false" />
     <file path="/mnstr.js" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365886543196" ignored="false" />
-    <file path="/comment.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365900144849" ignored="false" />
+    <file path="/comment.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365901916907" ignored="false" />
+    <file path="/reply.html" changelist="d4de90ef-d1db-4f55-8be5-9e1b30c2d73d" time="1365902025712" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,10 +95,12 @@
       <file leaf-file-name="comment.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnstr/templates/layouts/comment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="18" selection-start="809" selection-end="809" vertical-scroll-proportion="-4.8">
+            <state line="12" column="34" selection-start="706" selection-end="721" vertical-scroll-proportion="-3.6">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -107,9 +110,10 @@
       <file leaf-file-name="reply.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnstr/templates/layouts/reply.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="43" selection-start="746" selection-end="758" vertical-scroll-proportion="-8.75">
+            <state line="11" column="45" selection-start="690" selection-end="690" vertical-scroll-proportion="-3.3">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,7 +122,7 @@
       <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="71" selection-start="2013" selection-end="2025" vertical-scroll-proportion="-2.92">
+            <state line="43" column="71" selection-start="2013" selection-end="2025" vertical-scroll-proportion="-1.72">
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -154,7 +158,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mnstr/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="23" selection-start="1890" selection-end="1890" vertical-scroll-proportion="0.8051948">
+            <state line="146" column="14" selection-start="1973" selection-end="1973" vertical-scroll-proportion="0.45454547">
               <folding />
             </state>
           </provider>
@@ -191,6 +195,7 @@
         <option value="$PROJECT_DIR$/mnstr/views.py" />
         <option value="$PROJECT_DIR$/mnstr/templates/main.html" />
         <option value="$PROJECT_DIR$/mnstr/templates/layouts/comment.html" />
+        <option value="$PROJECT_DIR$/mnstr/templates/layouts/reply.html" />
         <option value="$PROJECT_DIR$/mnstr/static/css/main.css" />
       </list>
     </option>
@@ -968,7 +973,11 @@
       <created>1365898687177</created>
       <updated>1365898687177</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="FUCKING XML FILE&#10;">
+      <created>1365900387505</created>
+      <updated>1365900387505</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1166,7 +1175,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mnstr/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="71" selection-start="2013" selection-end="2025" vertical-scroll-proportion="-2.92">
+        <state line="43" column="71" selection-start="2013" selection-end="2025" vertical-scroll-proportion="-1.72">
           <folding>
             <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1176,29 +1185,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/templates/layouts/reply.html">
+    <entry file="file://$PROJECT_DIR$/mnstr/templates/layouts/comment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="43" selection-start="746" selection-end="758" vertical-scroll-proportion="-8.75">
+        <state line="12" column="34" selection-start="706" selection-end="721" vertical-scroll-proportion="-3.6">
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnstr/templates/layouts/comment.html">
+    <entry file="file://$PROJECT_DIR$/mnstr/templates/layouts/reply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="18" selection-start="809" selection-end="809" vertical-scroll-proportion="-4.8">
+        <state line="11" column="45" selection-start="690" selection-end="690" vertical-scroll-proportion="-3.3">
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mnstr/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="23" selection-start="1890" selection-end="1890" vertical-scroll-proportion="0.8051948">
+        <state line="146" column="14" selection-start="1973" selection-end="1973" vertical-scroll-proportion="0.45454547">
           <folding />
         </state>
       </provider>
