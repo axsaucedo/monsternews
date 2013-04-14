@@ -15,6 +15,10 @@ body {
     color: #363636;
 }
 
+.votes {
+    display: none;
+}
+
 h1.page-title
 {
     text-align:center;
