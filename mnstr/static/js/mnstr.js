@@ -53,6 +53,14 @@ var mnstr = {
 			}
 		});
 		
+		$("body").on("mouseover", ".news_displayed_name", function() {
+			var real_news_name = $.trim($(this).closest(".heading").find(".real_news_name").text());
+			if (real_news_name !== $.trim($(this).text())) {
+				$(this).tooltip({ title: real_news_name});
+				$(this).tooltip("show");
+			}
+		});
+		
 	}
 }
 
