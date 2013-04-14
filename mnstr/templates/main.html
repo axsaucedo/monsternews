@@ -39,9 +39,9 @@
 		                	{% endfor %}
 						</div>
 					</div>
-					<div data-topic_id="{{ topic.topic.id }}" data-load_comments_url="/load_comments/" class="span3 topic_comments" style="border: 2px solid; height: 500px; overflow-y: scroll; overflow-x: hidden;">
+					<div data-topic_id="{{ topic.topic.id }}" data-load_comments_url="/load_comments/" class="span3 topic_comments" style=" height: 500px; overflow-y: scroll; overflow-x: hidden;">
 						<div class="row-fluid post_comment_box" data-post_comment_url="/post_comment/">
-                            <button class="btn btn-success post_comment">Post</button>
+                            <button class="btn btn-warning post_comment">Post</button>
 							<input type="text" class="post_comment_name" placeholder="Name">
                             <textarea class="post_comment_field" placeholder="Comment"></textarea>
 						</div>
@@ -60,9 +60,9 @@
     </div>
 	<div id="reply_box_sample" style="display:none;">
 		<div class="reply_box" data-post_reply_url="/post_reply/">
-            <button class="btn btn-success post_reply" >Post</button>
-            <input type="text" class="post_comment_name" style="width: 90px; margin-right: 25px" placeholder="Name">
-            <textarea class="post_comment_field" placeholder="Comment" style="width: 180px"></textarea>
+            <button class="btn btn-warning post_reply" >Post</button>
+            <input type="text" class="post_reply_name" style="width: 90px; margin-right: 25px" placeholder="Name">
+            <textarea class="post_reply_field" placeholder="Comment" style="width: 180px"></textarea>
 		</div>
 	</div>
 </body>

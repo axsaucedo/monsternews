@@ -15,6 +15,21 @@ body {
     color: #363636;
 }
 
+a {
+    color: #f9b233;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    /* ...and now for the proper property */
+    transition:.5s;
+}
+
+a:hover {
+    color: #f6d59a;
+    text-decoration: none;
+}
+
 .votes {
     display: none;
 }
@@ -110,4 +125,16 @@ h1.page-title
     width: 220px;
     margin: 5px;
     margin-bottom:10px;
+}
+
+.reply_button {
+    font-size: 10px;
+    height: 22px;
+    width: 30px;
+    padding: 0px 0px 0px 0px;
+}
+
+.show_replies {
+    float: right;
+    margin-right: 20px;
 }
