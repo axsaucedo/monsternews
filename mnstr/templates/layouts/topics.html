@@ -13,7 +13,7 @@
 		                        <div class="heading">{{ news.name|truncatechars:27 }}</div>
 		                        <a href="{{ news.link }}">
                                              <div class="img-source">
-                                                 <div style="width:90%; height:100%; background-size:contain; background-image:url('{{ news.image_link }}');">
+                                                 <div style="width:90%; height:100%; background-size:cover; background-image:url('{{ news.image_link }}');">
                                                      <span style="text-align:center; font-size:8px; color:black; float:right; width: 35px; height: 17px; background-color: rgba(255, 255, 255, 150);">
                                                          <span class="news_views">
                                                              {{ news.views }}
@@ -23,7 +23,7 @@
                                                  </div>
                                              </div>
                                          </a>
-		                        <div class="description">{{ news.description|truncatechars:200 }}</div>
+		                        <div class="description">{{ news.description|truncatechars:150 }}</div>
 		                    </div>
 	                	{% endfor %}
                 	</div>
