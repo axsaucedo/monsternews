@@ -19,6 +19,7 @@ urlpatterns = patterns('',
     url(r'^load_comments/$', 'mnstr.views.load_comments', name='load_comments'),
     url(r'^post_comment/$', 'mnstr.views.post_comment', name='post_comment'),
     url(r'^post_reply/$', 'mnstr.views.post_reply', name='post_reply'),
-     url(r'^vote_comment/$', 'mnstr.views.vote_comment', name='vote_comment'),
+    url(r'^vote_comment/$', 'mnstr.views.vote_comment', name='vote_comment'),
+    url(r'^source_click/$', 'mnstr.views.source_click', name='source_click'),
     url(r'^admin/', include(admin.site.urls)),
 )
