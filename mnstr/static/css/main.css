@@ -34,6 +34,14 @@ body {
     height: 100%;
 }
 
+.modal-header {
+    text-align: center;
+    padding-top:20px
+}
+.modal-header span {
+    height: 40px;
+}
+
 a {
     color: #f9b233;
     -o-transition:.5s;

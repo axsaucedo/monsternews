@@ -54,9 +54,10 @@ var mnstr = {
 			}
 		});
 
-        $('body').on('click', '.model-link', function() {
-            $("topic-modal").find(".model-iframe").attr('src', $(this).attr('data-news_link'));
-            $('#myModal').modal('show');
+        $('body').on('click', '.model-link', function(e) {
+            $("#topic-modal").find(".modal-iframe").attr('src', $(this).attr('data-news_link'));
+            $('#topic-modal').modal('show');
+            e.preventDefault();
         });
 		
 	}
