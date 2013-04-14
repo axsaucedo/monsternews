@@ -17,7 +17,6 @@
 	<div class="row-fluid">
 		<div class="span1">&nbsp</div>
 		<div class="span10" id="page_content" data-load_topics_url="/load_topics/">
-{#			<h1 class="page-title">MNSTR NEWS</h1>#}
             <div id="page-divider"></div>
 			{% include "layouts/topics.html" with topics=topics %}
 		</div>
@@ -34,9 +33,9 @@
 	</div>
     <div id="topic-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-header">
-            <span style="width: 100%;"><img src='static/media/mainimg/BBC.png' style="float: left; margin-top:-10px"/>
-            <span style="font-size: 3em; margin-top: 40px"> <b>This is the title of the news.</b> </span>
-            <a href="" style="font-size:1.2em">Source</a>
+            <span style="width: 100%;"><img id="modal_logo" src='static/media/mainimg/BBC.png' style="float: left; margin-top:-10px"/>
+            <span style="font-size: 3em; margin-top: 40px"> <b id="modal_title">This is the title of the news.</b> </span>
+            <a id="modal_source_link" href="#" style="font-size:1.2em">Source</a>
             <button style="width:10%" type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> </span>
         </div>
         <div class="modal-body">

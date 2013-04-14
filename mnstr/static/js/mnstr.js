@@ -55,7 +55,11 @@ var mnstr = {
 		});
 
         $('body').on('click', '.model-link', function(e) {
+        	var source = $(this).closest(".source");
             $("#topic-modal").find(".modal-iframe").attr('src', $(this).attr('data-news_link'));
+            $("#modal_logo").attr("src", source.find(".source-logo").attr("src"));
+            $("#modal_title").html(source.find(".modal_news_name").html());
+            $("#modal_source_link").attr("href", source.find(".model-link").attr("data-news_link"));
             $('#topic-modal').modal('show');
             e.preventDefault();
         });

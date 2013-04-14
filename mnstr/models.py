@@ -5,6 +5,7 @@ from django.conf import settings
 
 class Topic(models.Model):
     name = models.CharField(max_length=255)
+    #time = models.DateTimeField(auto_now=True)
 
     def __unicode__(self):
         return self.name
