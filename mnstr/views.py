@@ -5,7 +5,7 @@ from django.template.loader import render_to_string
 from django.utils import simplejson
 from django.http import HttpResponse
 
-fetch_comments = 5
+fetch_comments = 6
 line_news = 4
 
 def home(request):

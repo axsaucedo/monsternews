@@ -28,27 +28,23 @@ a {
 a:hover {
     color: #f6d59a;
     text-decoration: none;
+    cursor:pointer;
 }
 
 .votes {
     display: none;
 }
 
-h1.page-title
-{
-    text-align:center;
-    font-family: 'Urban';
-    font-size:6em;
-    margin-top: 80px;
-}
 .img-title img {
-    width:100%;
-    position:relative;
+    width: 100%;
+    position: relative;
+    margin-top: -20px;
 }
 
 .topic-title
 {
 	text-align:left;
+    font-family: Archive;
 }
 
 .topic
@@ -74,6 +70,7 @@ h1.page-title
 .img-source {
     width: 200px;
     height: 130px;
+
 }
 
 .description {
@@ -86,7 +83,6 @@ h1.page-title
 {
     height: 250px;
     min-width: 170px;
-    padding: 5px;
 }
 
 .source .heading
