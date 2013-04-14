@@ -29,7 +29,8 @@
 								<div class="row-fluid">
 									{% for news in news_group %}
 					                    <div class="span3 source" data-source_id="{{ news.id }}" data-source_click_url="/source_click/">
-					                        <div class="div-logo"><img class="source-logo" src="{{ news.source }}"></div>
+
+                                            <div class="div-logo"><img class="source-logo" src="{{ news.source }}"></div>
 					                        <div class="heading">{{ news.name|truncatechars:27 }}</div>
 					                        <a href="{{ news.link }}">
                                                 <div class="img-source">
