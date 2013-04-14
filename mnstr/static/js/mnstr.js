@@ -3,7 +3,7 @@ var mnstr = {
 	init: function() {
 		
 		var auto_clicking = false;
-		
+
 		$("body").on("click", ".img-source", function(e) {
 			if (!auto_clicking) {
 				var link = $(this);
@@ -22,6 +22,7 @@ var mnstr = {
 				e.preventDefault();
 			}
 		});
+		
 	}
 }
 

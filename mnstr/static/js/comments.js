@@ -7,8 +7,11 @@ var comments = {
 		var loading_lists = [];
 		var full_lists = [];
 		
-		$(".topic_comments").on("scroll", function() {
-			var topic_comments = $(this);
+		var left_min_height = 50;
+		var loading_list = false;
+		var full_list = false;
+		
+		function comments_scrolled(topic_comments) {
 			var topic_id = topic_comments.attr("data-topic_id");
 			if (!loading_lists.topic_id && !full_lists.topic_id && (topic_comments[0].scrollHeight - topic_comments.scrollTop() - topic_comments.height() < left_min_height)) { 	
 				loading_lists.topic_id = true;
@@ -29,6 +32,10 @@ var comments = {
 					}
 				});
 			}
+		}
+		
+		$(".topic_comments").bind("scroll", function() {
+			comments_scrolled($(this));
 		});
 		
 		function show_replies(button) {
@@ -164,6 +171,32 @@ var comments = {
 		
 		$("body").on("click", ".down_vote", function() {
 			send_vote($(this), -1);
+		});
+		
+		$(window).on("scroll", function() {
+			var page_content = $("#page_content");
+			if (!loading_list && !full_list && ($("body").height() - $(window).scrollTop() - $(window).height() < left_min_height)) { 	
+				loading_list = true;
+				$.ajax({
+					url : page_content.attr("data-load_topics_url"),
+					method: "get",
+					dataType: "json",
+					data: {
+						"lower_limit": page_content.find(".topic").length,
+					},
+					success: function(res) {
+						if (res.full === true) {
+							full_list = true;
+						}
+						page_content.append(res.html);
+						loading_list = false;
+						$(".topic_comments").unbind("scroll");
+						$(".topic_comments").bind("scroll", function() {
+							comments_scrolled($(this));
+						});
+					}
+				});
+			}
 		});
 		
 		

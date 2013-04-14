@@ -6,11 +6,10 @@ from django.utils import simplejson
 from django.http import HttpResponse
 
 fetch_comments = 6
+fecth_topics = 1
 line_news = 4
 
-def home(request):
-    allTopics = Topic.objects.all()[:5]
-
+def get_topics_list(allTopics):
     topics = []
     for topic in allTopics:
         #Retreiving News objects from database related to topic
@@ -41,8 +40,11 @@ def home(request):
             })
 
         topics.append({ 'topic' : topic ,'news_groups': news_groups, 'comments' : comments})
+        
+    return topics
 
-    return render(request, "main.html", { 'topics' : topics })
+def home(request):
+    return render(request, "main.html", { 'topics' : get_topics_list(Topic.objects.all()[:fecth_topics]) })
 
 def load_comments(request):
     topic = Topic.objects.get(pk=request.GET['topic_id'])
@@ -96,3 +98,12 @@ def source_click(request):
     news.views += 1
     news.save()
     return HttpResponse()
+
+def load_topics(request):
+    lower_limit = int(request.GET['lower_limit'])
+    allTopics = Topic.objects.all()[lower_limit:lower_limit + fecth_topics]
+    data = {
+        'html': render_to_string('layouts/topics.html', { 'topics': get_topics_list(allTopics) }),
+        'full': allTopics.count() < fecth_topics
+    }
+    return HttpResponse(simplejson.dumps(data), mimetype='application/javascript')
