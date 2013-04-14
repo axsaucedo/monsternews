@@ -67,7 +67,7 @@ var comments = {
 				button.attr("disabled", "disabled");
 				$.ajax({
 					url: comment_box.attr("data-post_comment_url"),
-					method: "get",
+					method: "post",
 					dataType: "json",
 					data: {
 						content: content,
@@ -118,7 +118,7 @@ var comments = {
 				button.attr("disabled", "disabled");
 				$.ajax({
 					url: reply_box.attr("data-post_reply_url"),
-					method: "get",
+					method: "post",
 					dataType: "json",
 					data: {
 						content: content,
@@ -140,7 +140,7 @@ var comments = {
 			var comment = button.closest(".comment");
 			$.ajax({
 				url: comment.attr("data-vote_url"),
-				method: "get",
+				method: "post",
 				dataType: "json",
 				data: {
 					comment_id: comment.attr("data-comment_id"),
