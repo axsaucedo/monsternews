@@ -11,11 +11,11 @@
 		                    <div class="span3 source" data-source_id="{{ news.id }}" data-source_click_url="/source_click/">
 		                        <div class="div-logo"><img class="source-logo" src="{{ news.source }}"></div>
 		                        <div class="heading">
-		                        	<span class="news_displayed_name">{{ news.name|truncatechars:27 }}</span>
+		                        	<span class="news_displayed_name">{{ news.name|truncatechars:23 }}</span>
 		                        	<span class="real_news_name" style="display:none">{{ news.name }}</span>
 		                        </div>
 {#		                        <a href="{{ news.link }}">#}
-                                <a href="#myModal" class="model-link">
+                                <a href="#" class="model-link" data-news_link="{{ news.link }}">
                                      <div class="img-source">
                                          <div style="width:90%; height:100%; background-size:cover; background-image:url('{{ news.image_link }}');">
                                              <span style="text-align:center; font-size:8px; color:black; float:right; width: 35px; height: 17px; background-color: rgba(255, 255, 255, 150);">
@@ -27,22 +27,8 @@
                                          </div>
                                      </div>
                                 </a>
-                                <div class="description">{{ news.description|truncatechars:150 }}</div>
+                                <div class="description">{{ news.description|truncatechars:130 }}</div>
 		                    </div>
-
-                            <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                    <h3 id="myModalLabel">Modal header</h3>
-                                </div>
-                                <div class="modal-body">
-                                    <iframe class="modal-iframe" src="{{ news.link }}"></iframe>
-                                </div>
-                                <div class="modal-footer">
-                                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                                    <button class="btn btn-primary">Save changes</button>
-                                </div>
-                            </div>
 	                	{% endfor %}
                 	</div>
                	{% endfor %}

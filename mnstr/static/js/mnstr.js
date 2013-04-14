@@ -55,6 +55,7 @@ var mnstr = {
 		});
 
         $('body').on('click', '.model-link', function() {
+            $("topic-modal").find(".model-iframe").attr('src', $(this).attr('data-news_link'));
             $('#myModal').modal('show');
         });
 		
